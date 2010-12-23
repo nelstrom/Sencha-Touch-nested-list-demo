@@ -5,9 +5,12 @@ Ext.setup({
             fullscreen: true,
             title: 'Groceries',
             displayField: 'text',
-            store: demos.store
+            store: demos.store,
+            getDetailCard: function(item, parent) {
+                return new Ext.Panel({
+                    html: "detail card"
+                });
+            }
         });
-        
-        
     }
 });
