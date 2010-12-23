@@ -1,15 +1,6 @@
-A demonstration of how the List View in Sencha Touch.
+A demonstration of how the Nested List View in Sencha Touch.
 
-Notes on models
----------------
+TODO:
 
-Notes on stores
----------------
-
-In the console, try running this:
-
-    demos.ListStore.sort('lastName', 'DESC')
-    demos.ListStore.sort('lastName', 'ASC')
-    demos.ListStore.filter('lastName', /Bu/)
-
-But how do you remove a filter?
+* clicking a leaf node should scroll to show a fresh page
+* update the text in the 'Back' button to show parent title (not 'Groceries')
