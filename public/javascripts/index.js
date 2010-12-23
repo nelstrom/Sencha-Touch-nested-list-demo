@@ -10,7 +10,7 @@ Ext.setup({
                 detailCard = new Ext.Panel({
                     tpl: "detail card for {text}"
                 });
-                detailCard.update(item);
+                detailCard.update(item.attributes.record.data);
                 return detailCard;
             }
         });
