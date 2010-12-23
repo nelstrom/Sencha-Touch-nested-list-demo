@@ -7,9 +7,11 @@ Ext.setup({
             displayField: 'text',
             store: demos.store,
             getDetailCard: function(item, parent) {
-                return new Ext.Panel({
-                    html: "detail card"
+                detailCard = new Ext.Panel({
+                    tpl: "detail card for {text}"
                 });
+                detailCard.update(item);
+                return detailCard;
             }
         });
     }
