@@ -10,6 +10,8 @@ Ext.setup({
                 detailCard = new Ext.Panel({
                     tpl: "detail card for {text}"
                 });
+                button = nestedList.toolbar.items.first()
+                button.setText(parent.attributes.record.data.text);
                 detailCard.update(item.attributes.record.data);
                 return detailCard;
             }
