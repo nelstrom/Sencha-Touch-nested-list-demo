@@ -7,11 +7,14 @@ Ext.setup({
             displayField: 'text',
             store: demos.store,
             getDetailCard: function(item, parent) {
+                var itemData = item.attributes.record.data,
+                parentData = parent.attributes.record.data,
                 detailCard = new Ext.Panel({
                     tpl: "detail card for {text}"
                 });
-                nestedList.backButton.setText(parent.attributes.record.data.text);
-                detailCard.update(item.attributes.record.data);
+                nestedList.backButton.setText(parentData.text);
+                nestedList.toolbar.setTitle(itemData.text);
+                detailCard.update(itemData);
                 return detailCard;
             }
         });
