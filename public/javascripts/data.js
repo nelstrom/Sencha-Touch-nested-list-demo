@@ -1,5 +1,5 @@
 // store with data
-demos.data = {
+NestedListDemo.data = {
     text: 'Groceries',
     items: [{
         text: 'Drinks',
@@ -59,9 +59,9 @@ Ext.regModel('ListItem', {
     fields: [{name: 'text', type: 'string'}]
 });
 
-demos.store = new Ext.data.TreeStore({
+NestedListDemo.store = new Ext.data.TreeStore({
     model: 'ListItem',
-    root: demos.data,
+    root: NestedListDemo.data,
     proxy: {
         type: 'ajax',
         reader: {

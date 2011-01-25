@@ -1,11 +1,12 @@
-Ext.ns('demos');
-Ext.setup({
-    onReady: function() {
+NestedListDemo = new Ext.Application({
+    name: "NestedListDemo",
+
+    launch: function() {
         var nestedList = new Ext.NestedList({
             fullscreen: true,
             title: 'Groceries',
             displayField: 'text',
-            store: demos.store,
+            store: NestedListDemo.store,
             getDetailCard: function(item, parent) {
                 var itemData = item.attributes.record.data,
                 parentData = parent.attributes.record.data,
