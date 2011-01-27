@@ -1,9 +1,6 @@
-require "rubygems"
-require 'rack/contrib'
-require 'rack-rewrite'
+require File.join(File.dirname(__FILE__), 'application')
 
-use Rack::Static, :urls => ['/images'], :root => "public"
-use Rack::Rewrite do
-  rewrite '/', '/index.html'
-end
-run Rack::Directory.new('public')
+set :run, false
+set :environment, :production
+
+run Sinatra::Application
