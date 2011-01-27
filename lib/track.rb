@@ -7,6 +7,8 @@ class Track
   property :album_id,  Integer
   belongs_to :album
 
+  validates_presence_of :name
+
   def catalogue
     {
       :text => self.name,
