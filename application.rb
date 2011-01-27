@@ -10,5 +10,5 @@ get '/' do
 end
 
 get '/catalogue.json' do
-  send_file 'views/catalogue.json', :type => :json
+  Catalogue.items.to_json
 end
