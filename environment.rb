@@ -4,7 +4,8 @@ require 'bundler/setup'
 require 'dm-core'
 require 'dm-validations'
 require 'dm-aggregates'
-require 'dm-aggregates'
+require 'dm-serializer'
+require 'dm-migrations'
 require 'ostruct'
 
 require 'sinatra' unless defined?(Sinatra)
