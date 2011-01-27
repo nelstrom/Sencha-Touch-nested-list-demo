@@ -4,4 +4,8 @@ class Genre
   property :name, String, :length => 0..50
   
   has n, :albums
+
+  def items
+    albums(:fields => [:name])
+  end
 end

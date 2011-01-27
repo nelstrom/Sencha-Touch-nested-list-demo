@@ -8,10 +8,13 @@ class Album
   has n, :tracks
   belongs_to :genre
   belongs_to :artist
-  
+
+  def items
+    tracks
+  end
+
   def self.create_from_dump(data)
     data = OpenStruct.new data
-    # debugger
     artist = Artist.first_or_create(:name => data.artist)
     genre = Genre.first_or_create(:name => data.genre)
     album = self.create(
