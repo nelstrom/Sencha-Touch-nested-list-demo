@@ -12,7 +12,8 @@ class Album
   def catalogue
     {
       :text => self.name,
-      :leaf => true
+      :leaf => true,
+      :items => self.tracks.map { |track| track.catalogue }
     }
   end
 

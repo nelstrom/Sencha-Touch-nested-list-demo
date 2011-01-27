@@ -6,4 +6,12 @@ class Track
 
   property :album_id,  Integer
   belongs_to :album
+
+  def catalogue
+    {
+      :text => self.name,
+      :leaf => true
+    }
+  end
+
 end
