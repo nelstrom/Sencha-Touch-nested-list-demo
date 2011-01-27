@@ -5,4 +5,11 @@ class Artist
   
   has n, :albums
   has n, :genres, :through => :albums
+  
+  def catalogue(genre)
+    {
+      :name => self.name,
+      :items => self.albums(:genre => genre).map { |album| album.catalogue }
+    }
+  end
 end

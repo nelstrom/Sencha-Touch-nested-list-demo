@@ -9,8 +9,11 @@ class Album
   belongs_to :genre
   belongs_to :artist
 
-  def items
-    tracks
+  def catalogue
+    {
+      :name => self.name,
+      :leaf => true
+    }
   end
 
   def self.create_from_dump(data)

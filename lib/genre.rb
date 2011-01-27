@@ -6,7 +6,12 @@ class Genre
   has n, :albums
   has n, :artists, :through => :albums
 
-  def items
-    albums(:fields => [:name])
+  def self.catalogue
+    Genre.all.map do |genre|
+      {
+        :name => genre.name,
+        :items => genre.artists.map { |artist| artist.catalogue(genre) }
+      }
+    end
   end
 end
