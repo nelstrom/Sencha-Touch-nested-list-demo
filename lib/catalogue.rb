@@ -1,5 +1,5 @@
 class Catalogue
   def self.items
-    { :items => Genre.catalogue }
+    { :items => Genre.all.map { |genre| genre.catalogue } }
   end
 end
