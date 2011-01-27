@@ -18,7 +18,6 @@ class Album
   end
 
   def self.create_from_dump(data)
-    # debugger
     data = OpenStruct.new data
     artist = Artist.first_or_create(:name => data.artist)
     genre = Genre.first_or_create(:name => data.genre)

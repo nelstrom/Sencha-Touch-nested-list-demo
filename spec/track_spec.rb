@@ -2,7 +2,7 @@ require "#{File.dirname(__FILE__)}/spec_helper"
 
 describe 'track' do
   before(:each) do
-    @track = Track.new(:name => 'test user')
+    @track = Track.new(:name => 'test track')
   end
 
   specify 'should be valid' do
@@ -17,7 +17,7 @@ describe 'track' do
 
   describe 'catalogue' do
     specify 'returns a hash with name as text' do
-      @track.catalogue[:text].should == 'test user'
+      @track.catalogue[:text].should == 'test track'
     end
     specify 'returns a hash with leaf set to true' do
       @track.catalogue[:leaf].should be_true
