@@ -7,7 +7,7 @@ NestedListDemo.store = new Ext.data.TreeStore({
     root: NestedListDemo.data,
     proxy: {
         type: 'ajax',
-        url: '/catalogue.json',
+        url: '/tracks/catalogue.json',
         reader: {
             type: 'tree',
             root: 'items'
