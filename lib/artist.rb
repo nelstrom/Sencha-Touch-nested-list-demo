@@ -7,7 +7,7 @@ class Artist
   has n, :genres, :through => :albums
   
   def catalogue(options={})
-    defaults = { :leaf => :album }
+    defaults = { :leaf => :album, :genre => nil }
     options = defaults.merge(options)
 
     if genre = options[:genre]
