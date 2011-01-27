@@ -25,6 +25,14 @@ namespace :db do
   task :upgrade => :environment do
     DataMapper.auto_upgrade!
   end
+  
+  desc 'Seed data'
+  task :seed => :migrate do
+    require 'yaml'
+    YAML.load_file("music.yml").each do |attributes|
+      Album.create_from_dump(attributes)
+    end
+  end
 end
 
 task :environment do
