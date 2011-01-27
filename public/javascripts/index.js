@@ -4,7 +4,7 @@ NestedListDemo = new Ext.Application({
     launch: function() {
         var nestedList = new Ext.NestedList({
             fullscreen: true,
-            title: 'Groceries',
+            title: 'Music',
             displayField: 'text',
             store: NestedListDemo.store,
             getDetailCard: function(item, parent) {

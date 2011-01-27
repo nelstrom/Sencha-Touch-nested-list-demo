@@ -7,6 +7,6 @@ get '/' do
   erb :index
 end
 
-get '/groceries.json' do
-  send_file 'views/groceries.json', :type => :json
+get '/catalogue.json' do
+  send_file 'views/catalogue.json', :type => :json
 end

@@ -1,0 +1,36 @@
+{
+    "items": [{
+        "text": "Blues",
+        "items": [{
+            "text": "Albert King",
+            "items": []
+        },{
+            "text": "Buddy Guy",
+            "items": []
+        },{
+            "text": "Eric Clapton",
+            "items": []
+        }]
+    },{
+        "text": "Country",
+        "items": []
+    },{
+        "text": "Dance",
+        "items": []
+    },{
+        "text": "Electronic",
+        "items": []
+    },{
+        "text": "Funk",
+        "items": []
+    },{
+        "text": "Jazz",
+        "items": []
+    },{
+        "text": "Punk",
+        "items": []
+    },{
+        "text": "Rock",
+        "items": []
+    }]
+}
