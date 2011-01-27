@@ -1,5 +1,7 @@
 require 'rubygems'
+require 'bundler/setup'
 require 'sinatra'
+require File.join(File.dirname(__FILE__), 'environment')
 
 mime_type :json, 'application/json'
 
