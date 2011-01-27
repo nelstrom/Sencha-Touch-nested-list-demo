@@ -11,5 +11,3 @@ gem "dm-sqlite-adapter"
 gem "do_sqlite3"
 
 gem "rack", "1.2.0"
-gem "rack-contrib", :require => "rack/contrib"
-gem "rack-rewrite"
