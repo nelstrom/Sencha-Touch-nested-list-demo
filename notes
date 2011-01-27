@@ -32,3 +32,9 @@ Genre.all.to_xml(:methods => [:items], :only => :name)
 </genres>
 
 Genre.all.to_xml(:methods => [:items], :only => :name, :collection_element_name => 'items', :element_name => 'item')
+
+
+g = Genre.all[2]
+g.artists.each do |art|
+  art.albums(:genre => g).each { |album| puts album.name }
+end
