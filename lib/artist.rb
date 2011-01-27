@@ -19,7 +19,7 @@ class Artist
     {
       :text => self.name,
       :leaf => (options[:leaf] == self.class.to_s.downcase.to_sym),
-      :items => albums.map { |album| album.catalogue }
+      :items => albums.map { |album| album.catalogue(options) }
     }
   end
 end

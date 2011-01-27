@@ -15,7 +15,7 @@ class Album
     {
       :text => self.name,
       :leaf => (options[:leaf] == self.class.to_s.downcase.to_sym),
-      :items => self.tracks.map { |track| track.catalogue }
+      :items => self.tracks.map { |track| track.catalogue(options) }
     }
   end
 

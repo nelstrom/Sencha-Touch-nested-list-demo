@@ -6,10 +6,13 @@ class Genre
   has n, :albums
   has n, :artists, :through => :albums
 
-  def catalogue
+  def catalogue(options={})
+    defaults = { :leaf => :album, :genre => self }
+    defaults.merge(options)
     {
       :text => self.name,
-      :items => self.artists.map { |artist| artist.catalogue(self) }
+      :leaf => (options[:leaf] == self.class.to_s.downcase.to_sym),
+      :items => self.artists.map { |artist| artist.catalogue(options) }
     }
   end
 end

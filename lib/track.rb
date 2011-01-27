@@ -9,7 +9,7 @@ class Track
 
   validates_presence_of :name
 
-  def catalogue
+  def catalogue(options={})
     {
       :text => self.name,
       :leaf => true
