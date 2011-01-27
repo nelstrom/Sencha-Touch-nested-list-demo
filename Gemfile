@@ -1,6 +1,7 @@
 source "http://rubygems.org"
 
 gem "rake"
+gem "activerecord"
 gem "sinatra", "~>1.1"
 
 gem "data_mapper"

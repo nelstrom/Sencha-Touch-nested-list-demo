@@ -1,6 +1,9 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    activerecord (2.3.5)
+      activesupport (= 2.3.5)
+    activesupport (2.3.5)
     addressable (2.2.3)
     columnize (0.3.2)
     data_mapper (1.0.2)
@@ -82,6 +85,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord
   data_mapper
   dm-aggregates (= 1.0.2)
   dm-core (= 1.0.2)
