@@ -11,7 +11,7 @@ class Album
 
   def catalogue
     {
-      :name => self.name,
+      :text => self.name,
       :leaf => true
     }
   end

@@ -8,7 +8,7 @@ class Artist
   
   def catalogue(genre)
     {
-      :name => self.name,
+      :text => self.name,
       :items => self.albums(:genre => genre).map { |album| album.catalogue }
     }
   end
