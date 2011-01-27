@@ -12,3 +12,11 @@ end
 get '/catalogue.json' do
   Catalogue.items.to_json
 end
+
+get '/albums/catalogue.json' do
+  Catalogue.items(:leaf => :album).to_json
+end
+
+get '/tracks/catalogue.json' do
+  Catalogue.items(:leaf => :track).to_json
+end
