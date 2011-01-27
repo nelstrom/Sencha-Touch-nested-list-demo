@@ -13,8 +13,11 @@ describe 'album' do
     specify 'returns hash with :text key returning name' do
       @album.catalogue[:text].should == 'test album'
     end
-    specify 'returns hash with :leaf key returning false' do
-      @album.catalogue[:leaf].should be_false
+    specify 'returns hash with :leaf key returning true' do
+      @album.catalogue[:leaf].should be_true
+    end
+    specify 'when passed another leaf, returns false for :leaf value' do
+      @album.catalogue({:leaf => :other})[:leaf].should be_false
     end
     specify 'returns hash with :items returning array' do
       @album.save

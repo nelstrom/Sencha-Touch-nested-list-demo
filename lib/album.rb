@@ -9,10 +9,12 @@ class Album
   belongs_to :genre
   belongs_to :artist
 
-  def catalogue
+  def catalogue(options={})
+    defaults = { :leaf => :album }
+    options = defaults.merge(options)
     {
       :text => self.name,
-      :leaf => false,
+      :leaf => (options[:leaf] == self.class.to_s.downcase.to_sym),
       :items => self.tracks.map { |track| track.catalogue }
     }
   end
