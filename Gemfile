@@ -16,3 +16,7 @@ gem "rack", "1.2.0"
 gem "rack-test"
 gem "rspec", :require => "spec"
 
+group :development do
+  gem "ruby-debug", "0.10.3"
+  gem "ruby-debug-base", "0.10.3"
+end
