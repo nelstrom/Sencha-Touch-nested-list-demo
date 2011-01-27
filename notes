@@ -1,0 +1,34 @@
+Genre.all.to_xml(:methods => [:items], :only => :name)
+
+
+<genres type='array'>
+  <genre><name>Rock</name>
+    <albums type='array'>
+      <album>
+        <id type='integer'>1</id><name>Nevermind</name><genre_id type='integer'>1</genre_id><artist_id type='integer'>1</artist_id>
+      </album>
+    </albums>
+  </genre>
+  <genre><name>Pop</name>
+    <albums type='array'>
+      <album>
+        <id type='integer'>2</id><name>Revolver</name><genre_id type='integer'>2</genre_id><artist_id type='integer'>2</artist_id>
+      </album>
+    </albums>
+  </genre>
+  <genre><name>Jazz</name>
+    <albums type='array'>
+        <album>
+          <id type='integer'>3</id><name>A Love Supreme</name><genre_id type='integer'>3</genre_id><artist_id type='integer'>3</artist_id>
+        </album>
+        <album>
+          <id type='integer'>4</id><name>My Favorite Things</name><genre_id type='integer'>3</genre_id><artist_id type='integer'>3</artist_id>
+        </album>
+        <album>
+          <id type='integer'>5</id><name>&apos;Round Midnight</name><genre_id type='integer'>3</genre_id><artist_id type='integer'>4</artist_id>
+        </album>
+    </albums>
+  </genre>
+</genres>
+
+Genre.all.to_xml(:methods => [:items], :only => :name, :collection_element_name => 'items', :element_name => 'item')
