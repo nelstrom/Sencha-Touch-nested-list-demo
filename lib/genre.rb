@@ -8,7 +8,7 @@ class Genre
 
   def catalogue(options={})
     defaults = { :leaf => :album, :genre => self }
-    defaults.merge(options)
+    options = defaults.merge(options)
     {
       :text => self.name,
       :leaf => (options[:leaf] == self.class.to_s.downcase.to_sym),
