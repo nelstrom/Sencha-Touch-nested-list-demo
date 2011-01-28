@@ -30,7 +30,7 @@ namespace :db do
   task :seed => :migrate do
     require 'yaml'
     YAML.load_file("music.yml").each do |attributes|
-      Catalogure.import(attributes)
+      Catalogue.import(attributes)
     end
   end
 end
