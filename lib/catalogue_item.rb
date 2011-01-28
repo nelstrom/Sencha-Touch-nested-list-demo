@@ -4,6 +4,7 @@ module CatalogueItem
     {
       :text => self.name,
       :info => self.info,
+      :model => self.class.to_s,
       :leaf => leaf(options),
       :items => items(options)
     }
