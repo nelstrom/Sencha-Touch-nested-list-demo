@@ -4,10 +4,9 @@ Ext.regModel('ListItem', {
 
 NestedListDemo.store = new Ext.data.TreeStore({
     model: 'ListItem',
-    root: NestedListDemo.data,
     proxy: {
         type: 'ajax',
-        url: '/tracks/catalogue.json',
+        url: '/albums/catalogue.json',
         reader: {
             type: 'tree',
             root: 'items'
