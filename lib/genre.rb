@@ -9,7 +9,7 @@ class Genre
   has n, :artists, :through => :albums
 
   def items(options={})
-    self.artists.map { |artist| artist.catalogue(options) }
+    self.artists.all(:order => :name).map { |artist| artist.catalogue(options) }
   end
 
   def catalogue_defaults

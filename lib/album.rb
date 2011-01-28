@@ -12,7 +12,7 @@ class Album
   belongs_to :artist
 
   def items(options={})
-    self.tracks.map { |track| track.catalogue(options) }
+    self.tracks.all(:order => :position).map { |track| track.catalogue(options) }
   end
 
 end

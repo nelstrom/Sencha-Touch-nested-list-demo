@@ -14,6 +14,6 @@ class Artist
     else
       albums = self.albums
     end
-    albums.map { |album| album.catalogue(options) }
+    albums.all(:order => :name).map { |album| album.catalogue(options) }
   end
 end

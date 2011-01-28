@@ -2,7 +2,8 @@ class Catalogue
   def self.items(options={})
     defaults = { :leaf => :album }
     options = defaults.merge(options)
-    { :items => Genre.all.map { |genre| genre.catalogue(options) } }
+    genres = Genre.all(:order => :name)
+    { :items => genres.map { |genre| genre.catalogue(options) } }
   end
 
   def self.import(data)
