@@ -1,0 +1,43 @@
+Is it possible to populate a NestedList from XML data?
+
+This works fine:
+
+var store = new Ext.data.TreeStore({
+    model: 'ListItem',
+    proxy: {
+        type: 'ajax',
+        url: '/albums/catalogue.json',
+        reader: {
+            type: 'tree',
+            root: 'items'
+        }
+    }
+});
+
+But if I switch it so that it fetches an XML representation of the catalogue, like this:
+
+    url: '/albums/catalogue.xml'
+
+It doesn't work, and raises an error in the console:
+
+    Uncaught Ext.data.JsonReader.getResponseData: Unable to parse JSON returned by Server.
+
+Normally, when you fetch JSON, the reader should be set to `type: 'json'`, but in the working example above, it is set to `type: 'tree'` instead. I can't find any mention of a tree reader in the API.
+
+
+
+I wanted to test whether it was possible to load XML data for the NestedList. 
+
+NestedListDemo.store = new Ext.data.TreeStore({
+    model: 'ListItem',
+    root: NestedListDemo.data,
+    proxy: {
+        type: 'ajax',
+        url: '/albums/catalogue.xml',
+        reader: {
+            type: 'xml',
+            root: 'items',
+            record: 'item'
+        }
+    }
+});
