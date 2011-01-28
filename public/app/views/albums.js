@@ -1,5 +1,5 @@
 NestedListDemo.views.Albums = Ext.extend(Ext.NestedList, {
-    title: 'Music',
+    title: 'Albums',
     displayField: 'text',
     store: NestedListDemo.albums_store,
     // getDetailCard: function(item, parent) {
