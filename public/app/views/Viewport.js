@@ -1,7 +1,7 @@
 NestedListDemo.views.Viewport = Ext.extend(Ext.TabPanel, {
     fullscreen: true,
     layout: 'card',
-    cardSwitchAnimation: 'fade',
+    cardSwitchAnimation: 'flip',
     initComponent: function() {
         //put instances of cards into NestedListDemo.views namespace
         Ext.apply(NestedListDemo.views, {
