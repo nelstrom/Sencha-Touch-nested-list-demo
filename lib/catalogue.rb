@@ -8,10 +8,14 @@ class Catalogue
 
   def self.import(data)
     data = OpenStruct.new data
-    artist = Artist.first_or_create(:name => data.artist)
+    artist = Artist.first_or_create(
+      :name => data.artist,
+      :info => data.artistInfo
+    )
     genre = Genre.first_or_create(:name => data.genre)
     album = Album.create(
       :name => data.name,
+      :info => data.albumInfo,
       :artist_id => artist.id,
       :genre_id => genre.id
     )

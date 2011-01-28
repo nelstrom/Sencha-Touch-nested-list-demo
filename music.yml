@@ -1,5 +1,6 @@
 --- 
 - name: "Back in Black"
+  albumInfo: ""
   artist: "AC/DC"
   genre: "Rock"
   tracks: ---
@@ -14,7 +15,9 @@
   -  "Shake a leg"
   -  "Rock and roll ain't noise pollution"
 - name: "Nevermind"
+  albumInfo: ""
   artist: "Nirvana"
+  artistInfo: ""
   genre: "Rock"
   tracks: ---
   -  "Smells Like Teen Spirit"
@@ -30,7 +33,9 @@
   -  "On A Plain"
   -  "Something In The Way"
 - name: "Changesbowie"
+  albumInfo: ""
   artist: "David Bowie"
+  artistInfo: ""
   genre: "Pop"
   tracks: ---
   - "Space Oddity"
@@ -52,7 +57,9 @@
   - "Modern Love"
   - "Blue Jean"
 - name: "Revolver"
+  albumInfo: ""
   artist: "The Beatles"
+  artistInfo: ""
   genre: "Pop"
   tracks: ---
   - "Taxman"
@@ -70,7 +77,9 @@
   - "Got to Get You into My Life"
   - "Tomorrow Never Knows"
 - name: "A Love Supreme"
+  albumInfo: ""
   artist: "John Coltrane"
+  artistInfo: ""
   genre: "Jazz"
   tracks: ---
   - "Part I: Acknowledgement"
@@ -78,7 +87,9 @@
   - "Part III: Pursuance"
   - "Part IV: Psalm"
 - name: "My Favorite Things"
+  albumInfo: ""
   artist: "John Coltrane"
+  artistInfo: ""
   genre: "Jazz"
   tracks: ---
   - "My Favourite Things"
@@ -86,7 +97,9 @@
   - "Summertime"
   - "But not for me"
 - name: "Kind of Blue"
+  albumInfo: ""
   artist: "Miles Davis"
+  artistInfo: ""
   genre: "Jazz"
   tracks: ---
   - "So What"
@@ -95,7 +108,9 @@
   - "All Blues"
   - "Flamenco Sketches"
 - name: "Round About Midnight"
+  albumInfo: ""
   artist: "Miles Davis"
+  artistInfo: ""
   genre: "Jazz"
   tracks: ---
   - "'Round Midnight"
@@ -109,7 +124,9 @@
   - "Budo"
   - "Sweet Sue, Just You"
 - name: "Bitches Brew"
+  albumInfo: ""
   artist: "Miles Davis"
+  artistInfo: ""
   genre: "Jazz"
   tracks: ---
   - "Pharaoh's Dance"
@@ -119,7 +136,9 @@
   - "Miles Runs the Voodoo Down"
   - "Sanctuary"
 - name: "Mingus Ah Um"
+  albumInfo: ""
   artist: "Charles Mingus"
+  artistInfo: ""
   genre: "Jazz"
   tracks: ---
   - "Better Git It In Your Soul"
@@ -132,7 +151,9 @@
   - "Pussy Cat Dues"
   - "Jelly Roll"
 - name: "Blues and Roots"
+  albumInfo: ""
   artist: "Charles Mingus"
+  artistInfo: ""
   genre: "Jazz"
   tracks: ---
   - "Wednesday Night Prayer Meeting"
@@ -142,7 +163,9 @@
   - "My Jelly Roll Soul"
   - "E's Flat Ah's Flat Too"
 - name: "Live in Cook County Jail"
+  albumInfo: ""
   artist: "B.B.King"
+  artistInfo: ""
   genre: "Blues"
   tracks: ---
   - "Introduction"
@@ -155,7 +178,9 @@
   - "The Thrill Is Gone"
   - "Please Accept My Love"
 - name: "Couldn't stand the weather"
+  albumInfo: ""
   artist: "Stevie Ray Vaughan"
+  artistInfo: ""
   genre: "Blues"
   tracks: ---
   - "Scuttle Buttin'"
@@ -167,7 +192,9 @@
   - "Honey Bee"
   - "Stang's Swang"
 - name: "Soul to soul"
+  albumInfo: ""
   artist: "Stevie Ray Vaughan"
+  artistInfo: ""
   genre: "Blues"
   tracks: ---
   - "Say What!"
@@ -181,7 +208,9 @@
   - "Come On (Part III)"
   - "Life Without You"
 - name: "Texas Flood"
+  albumInfo: ""
   artist: "Stevie Ray Vaughan"
+  artistInfo: ""
   genre: "Blues"
   tracks: ---
   - "Love Struck Baby"
@@ -195,7 +224,9 @@
   - "I'm Cryin'"
   - "Lenny"
 - name: "The Beano Album"
+  albumInfo: ""
   artist: "John Mayall's Bluesbreakers"
+  artistInfo: ""
   genre: "Blues"
   tracks: ---
   - "All your love"
@@ -213,7 +244,9 @@
   - "Lonely Years"
   - "Bernard Jenkins"
 - name: "A Hard Road"
+  albumInfo: ""
   artist: "John Mayall's Bluesbreakers"
+  artistInfo: ""
   genre: "Blues"
   tracks: ---
   - "A Hard Road"

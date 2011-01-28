@@ -4,6 +4,7 @@ class Genre
 
   property :id,   Serial
   property :name, String, :length => 0..50
+  property :info, String, :length => 0..255
   
   has n, :albums
   has n, :artists, :through => :albums

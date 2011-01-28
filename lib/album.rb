@@ -4,6 +4,8 @@ class Album
 
   property :id,   Serial
   property :name, String, :length => 0..50
+  property :info, String, :length => 0..255
+
   property :genre_id,  Integer
   property :artist_id,  Integer
 

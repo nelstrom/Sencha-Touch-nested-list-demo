@@ -3,6 +3,7 @@ module CatalogueItem
     options = catalogue_defaults.merge(options)
     {
       :text => self.name,
+      :info => self.info,
       :leaf => leaf(options),
       :items => items(options)
     }
