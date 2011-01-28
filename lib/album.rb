@@ -1,5 +1,7 @@
 class Album
   include DataMapper::Resource
+  include CatalogueItem
+
   property :id,   Serial
   property :name, String, :length => 0..50
   property :genre_id,  Integer
@@ -9,14 +11,8 @@ class Album
   belongs_to :genre
   belongs_to :artist
 
-  def catalogue(options={})
-    defaults = { :leaf => :album }
-    options = defaults.merge(options)
-    {
-      :text => self.name,
-      :leaf => (options[:leaf] == self.class.to_s.downcase.to_sym),
-      :items => self.tracks.map { |track| track.catalogue(options) }
-    }
+  def items(options={})
+    self.tracks.map { |track| track.catalogue(options) }
   end
 
   def self.create_from_dump(data)

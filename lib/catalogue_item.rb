@@ -3,13 +3,17 @@ module CatalogueItem
     options = catalogue_defaults.merge(options)
     {
       :text => self.name,
-      :leaf => (options[:leaf] == self.class.to_s.downcase.to_sym),
+      :leaf => leaf(options),
       :items => items(options)
     }
   end
 
   def items(options={})
     []
+  end
+
+  def leaf(options={})
+    options[:leaf] == self.class.to_s.downcase.to_sym
   end
 
   def catalogue_defaults

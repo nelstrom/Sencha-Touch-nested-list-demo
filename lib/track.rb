@@ -1,5 +1,7 @@
 class Track
   include DataMapper::Resource
+  include CatalogueItem
+
   property :id,   Serial
   property :name, String, :length => 0..50
   property :position,  Integer
@@ -9,11 +11,8 @@ class Track
 
   validates_presence_of :name
 
-  def catalogue(options={})
-    {
-      :text => self.name,
-      :leaf => true
-    }
+  def leaf(options={})
+    true
   end
 
 end
