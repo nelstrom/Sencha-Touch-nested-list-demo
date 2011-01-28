@@ -22,5 +22,8 @@ describe 'track' do
     specify 'returns a hash with leaf set to true' do
       @track.catalogue[:leaf].should be_true
     end
+    specify 'returns a hash with :model set "Track"' do
+      @track.catalogue[:model].should == "Track"
+    end
   end
 end

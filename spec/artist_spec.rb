@@ -16,6 +16,9 @@ describe 'artist' do
     specify 'returns hash with :leaf key returning false' do
       @artist.catalogue[:leaf].should be_false
     end
+    specify 'returns hash with :model key returning "Artist"' do
+      @artist.catalogue[:model].should == "Artist"
+    end
     specify 'when passed :leaf => :artist, returns true for :leaf value' do
       @artist.catalogue({:leaf => :artist})[:leaf].should be_true
     end

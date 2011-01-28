@@ -13,6 +13,9 @@ describe 'genre' do
     specify 'returns hash with :text key returning name' do
       @genre.catalogue[:text].should == 'test genre'
     end
+    specify 'returns hash with :model key returning Genre' do
+      @genre.catalogue[:model].should == "Genre"
+    end
     specify 'returns hash with :leaf key returning false' do
       @genre.catalogue[:leaf].should be_false
     end

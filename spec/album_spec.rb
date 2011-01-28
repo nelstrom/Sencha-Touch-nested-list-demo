@@ -13,6 +13,9 @@ describe 'album' do
     specify 'returns hash with :text key returning name' do
       @album.catalogue[:text].should == 'test album'
     end
+    specify 'returns hash with :model key returning "Album"' do
+      @album.catalogue[:model].should == "Album"
+    end
     specify 'returns hash with :leaf key returning true' do
       @album.catalogue[:leaf].should be_true
     end
