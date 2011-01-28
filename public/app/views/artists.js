@@ -6,7 +6,8 @@ NestedListDemo.views.Artists = Ext.extend(Ext.NestedList, {
         var itemData = item.attributes.record.data,
         parentData = parent.attributes.record.data,
         detailCard = new Ext.Panel({
-            tpl: "detail card for {text}"
+			styleHtmlContent: true,
+            tpl: "<h2>{text}</h2>"
         });
         this.backButton.setText(parentData.text);
         this.toolbar.setTitle(itemData.text);
