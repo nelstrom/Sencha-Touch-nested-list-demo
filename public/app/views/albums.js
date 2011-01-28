@@ -1,5 +1,4 @@
 NestedListDemo.views.Albums = Ext.extend(Ext.NestedList, {
-    fullscreen: true,
     title: 'Music',
     displayField: 'text',
     store: NestedListDemo.albums_store,
