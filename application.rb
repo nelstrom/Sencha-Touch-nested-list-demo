@@ -10,12 +10,12 @@ get '/' do
   erb :index
 end
 
-get '/catalogue.json' do
-  Catalogue.items.to_json
-end
-
 get '/albums/catalogue.xml' do
   Catalogue.items(:leaf => :album).to_xml
+end
+
+get '/artists/catalogue.json' do
+  Catalogue.items(:leaf => :artist).to_json
 end
 
 get '/albums/catalogue.json' do
