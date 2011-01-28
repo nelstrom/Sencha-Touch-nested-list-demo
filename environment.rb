@@ -8,6 +8,8 @@ require 'dm-serializer'
 require 'dm-migrations'
 require 'ostruct'
 
+require File.join(File.dirname(__FILE__), 'lib/catalogue_item')
+
 require 'sinatra' unless defined?(Sinatra)
 
 configure do
