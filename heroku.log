@@ -1,0 +1,80 @@
+/disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require': no such file to load -- dm-postgres-adapter (MissingSourceFile)
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/dm-core-1.0.2/lib/dm-core/adapters.rb:163:in `load_adapter'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/dm-core-1.0.2/lib/dm-core/adapters.rb:133:in `adapter_class'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/dm-core-1.0.2/lib/dm-core/adapters.rb:13:in `new'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/dm-core-1.0.2/lib/dm-core.rb:266:in `setup'
+	from ./environment.rb:26
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/sinatra-1.1.2/lib/sinatra/base.rb:1115:in `configure'
+	from (__DELEGATE__):2:in `send'
+	from (__DELEGATE__):2:in `configure'
+	from ./environment.rb:15
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+	from ./application.rb:5
+	from /usr/ruby1.8.7/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/ruby1.8.7/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from config.ru:1
+	from /home/heroku_rack/heroku.ru:23
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:46:in `instance_eval'
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:46:in `initialize'
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:63:in `new'
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:63:in `map'
+	from /home/heroku_rack/heroku.ru:18
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:46:in `instance_eval'
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:46:in `initialize'
+	from /home/heroku_rack/heroku.ru:11:in `new'
+	from /home/heroku_rack/heroku.ru:11
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:46:in `instance_eval'
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:46:in `initialize'
+	from /home/heroku_rack/heroku.ru:1:in `new'
+	from /home/heroku_rack/heroku.ru:1
+
+==> dyno-3877309.log (crash) <==
+/disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require': no such file to load -- dm-postgres-adapter (MissingSourceFile)
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/dm-core-1.0.2/lib/dm-core/adapters.rb:163:in `load_adapter'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/dm-core-1.0.2/lib/dm-core/adapters.rb:133:in `adapter_class'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/dm-core-1.0.2/lib/dm-core/adapters.rb:13:in `new'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/dm-core-1.0.2/lib/dm-core.rb:266:in `setup'
+	from ./environment.rb:26
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/sinatra-1.1.2/lib/sinatra/base.rb:1115:in `configure'
+	from (__DELEGATE__):2:in `send'
+	from (__DELEGATE__):2:in `configure'
+	from ./environment.rb:15
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /disk1/home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:156:in `require'
+	from ./application.rb:5
+	from /usr/ruby1.8.7/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/ruby1.8.7/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from config.ru:1
+	from /home/heroku_rack/heroku.ru:23
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:46:in `instance_eval'
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:46:in `initialize'
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:63:in `new'
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:63:in `map'
+	from /home/heroku_rack/heroku.ru:18
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:46:in `instance_eval'
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:46:in `initialize'
+	from /home/heroku_rack/heroku.ru:11:in `new'
+	from /home/heroku_rack/heroku.ru:11
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:46:in `instance_eval'
+	from /home/slugs/7a168325-ad3a-45c6-a05c-63dede8b35ef/mnt/.bundle/gems/ruby/1.8/gems/rack-1.2.0/lib/rack/builder.rb:46:in `initialize'
+	from /home/heroku_rack/heroku.ru:1:in `new'
+	from /home/heroku_rack/heroku.ru:1
+
+-----> Your application is requiring a file that it can't find.
+
+       Most often this is due to missing gems, or it could be that you failed
+       to commit the file to your repo.  See http://docs.heroku.com/gems for
+       more information on managing gems.
+
+       Examine the backtrace above this message to debug.
