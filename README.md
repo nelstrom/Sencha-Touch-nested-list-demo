@@ -4,6 +4,11 @@ Also, see the [Sencha Touch Nested List example][eg].
 
 ## Deploying to Heroku ##
 
+Setup to use sqlite:
+
+    heroku config:add DATABASE_URL=sqlite://development.db
+    heroku config:add SHARED_DATABASE_URL=sqlite://development.db
+
 Run:
 
     git push heroku master
