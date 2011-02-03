@@ -2,6 +2,13 @@ A demonstration of how the Nested List View in Sencha Touch.
 
 Also, see the [Sencha Touch Nested List example][eg].
 
+## Deploying to Heroku ##
+
+Run:
+
+    git push heroku master
+    heroku db:push sqlite://development.db
+
 TODO:
 
 * clicking a leaf node should scroll to show a fresh page
