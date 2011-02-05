@@ -12,7 +12,7 @@ Create the Postgres database:
 Run:
 
     git push heroku master
-    heroku db:push
+    heroku rake db:seed
 
 TODO:
 
