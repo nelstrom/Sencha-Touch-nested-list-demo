@@ -23,7 +23,7 @@ configure do
   $LOAD_PATH.unshift("#{File.dirname(__FILE__)}/lib")
   Dir.glob("#{File.dirname(__FILE__)}/lib/*.rb") { |lib| require File.basename(lib, '.*') }
 
-  DataMapper.setup(:default, (ENV["DATABASE_URL"] || 'postgres://localhost/the_database_name'))
+  DataMapper.setup(:default, (ENV["DATABASE_URL"] || 'postgres://localhost/music_catalogue'))
 
 end
 

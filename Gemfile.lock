@@ -53,8 +53,6 @@ GEM
       dm-core (~> 1.0.2)
     do_postgres (0.10.2)
       data_objects (= 0.10.2)
-    do_sqlite3 (0.10.2)
-      data_objects (= 0.10.2)
     extlib (0.9.15)
     fastercsv (1.5.4)
     json_pure (1.5.1)
@@ -95,7 +93,7 @@ DEPENDENCIES
   dm-postgres-adapter
   dm-serializer (= 1.0.2)
   dm-validations (= 1.0.2)
-  do_sqlite3
+  do_postgres
   rack (= 1.2.0)
   rack-test
   rake
