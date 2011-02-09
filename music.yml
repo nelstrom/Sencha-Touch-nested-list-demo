@@ -36,7 +36,7 @@
 - name: "Changesbowie"
   albumInfo: "A best of collection."
   artist: "David Bowie"
-  artistInfo: "One of the pillars of cool in the world of pop."
+  artistInfo: "<p>David Bowie (born David Robert Jones on 8th January 1947 in Brixton, London, England, United Kingdom) is an English singer, songwriter, musician, and actor. Active in five decades of popular music and frequently reinventing his music and image, Bowie is widely regarded as an innovator, particularly for his work in the 1970s. He has been cited as an influence by many musicians and is known for his distinctive voice and the intellectual depth of his work.</p>"
   genre: "Pop"
   tracks: ---
   - "Space Oddity"
@@ -60,7 +60,7 @@
 - name: "Revolver"
   albumInfo: "Some say, The Beatles best album."
   artist: "The Beatles"
-  artistInfo: "The Beatles were a little known 1960s pop outfit from the North of England."
+  artistInfo: "<p>The Beatles were an iconic rock group from Liverpool, England. They are frequently cited as the most commercially successful and critically acclaimed band in modern history, with innovative music, a cultural impact that helped define the 1960s and an enormous influence on music that is still felt today. Currently, The Beatles are one of the two musical acts to sell more than 1 billion records, with only Elvis Presley having been able to achieve the same feat.</p>"
   genre: "Pop"
   tracks: ---
   - "Taxman"
@@ -80,7 +80,7 @@
 - name: "A Love Supreme"
   albumInfo: "John Coltrane mellows out."
   artist: "John Coltrane"
-  artistInfo: "John Coltrane always pushed boundaries of what the saxophone and music could do."
+  artistInfo: "<p>John William Coltrane (Hamlet, North Carolina, September 23, 1926 – Huntington, New York, July 17, 1967) was an American jazz saxophonist and composer.</p><p>American jazz great John Coltrane emerged in the 1950s, playing tenor and soprano sax with Dizzy Gillespie, Miles Davis and Thelonious Monk. A leader of “hard bop”, in the 1960s he led his own groups and changed the face of jazz with experimentation and improvisation, his later recordings reflecting his belief that music was a form of spiritual expression.</p>"
   genre: "Jazz"
   tracks: ---
   - "Part I: Acknowledgement"
@@ -90,7 +90,8 @@
 - name: "My Favorite Things"
   albumInfo: "The album where John Coltrane debuted on the soprano saxophone."
   artist: "John Coltrane"
-  artistInfo: "John Coltrane always pushed boundaries of what the saxophone and music could do."
+
+  artistInfo: "<p>John William Coltrane (Hamlet, North Carolina, September 23, 1926 – Huntington, New York, July 17, 1967) was an American jazz saxophonist and composer.</p><p>American jazz great John Coltrane emerged in the 1950s, playing tenor and soprano sax with Dizzy Gillespie, Miles Davis and Thelonious Monk. A leader of “hard bop”, in the 1960s he led his own groups and changed the face of jazz with experimentation and improvisation, his later recordings reflecting his belief that music was a form of spiritual expression.</p>"
   genre: "Jazz"
   tracks: ---
   - "My Favourite Things"
@@ -100,7 +101,8 @@
 - name: "Kind of Blue"
   albumInfo: "The best selling jazz album of all time."
   artist: "Miles Davis"
-  artistInfo: "Miles career spanned 7 decades, and he always pushed forward."
+  artistInfo: "<p>Miles Davis (Miles Dewey Davis III, Alton, Illinois, May 25, 1926 – Santa Monica, California, September 28, 1991) was an American trumpeter, bandleader and composer.</p><p>Davis was at the forefront of almost every major development in jazz after World War II. He was one of the most influential and innovative musicians of the 20th century.</p><p>Widely considered one of the most influential musicians of the 20th century, Miles Davis was, with his musical groups, at the forefront of several major developments in jazz music, including bebop, cool jazz, hard bop, modal jazz, and jazz fusion.</p>"
+
   genre: "Jazz"
   tracks: ---
   - "So What"
@@ -111,7 +113,7 @@
 - name: "Round About Midnight"
   albumInfo: "Davis assembles another all-star group for this album."
   artist: "Miles Davis"
-  artistInfo: "Miles career spanned 7 decades, and he always pushed forward."
+  artistInfo: "<p>Miles Davis (Miles Dewey Davis III, Alton, Illinois, May 25, 1926 – Santa Monica, California, September 28, 1991) was an American trumpeter, bandleader and composer.</p><p>Davis was at the forefront of almost every major development in jazz after World War II. He was one of the most influential and innovative musicians of the 20th century.</p><p>Widely considered one of the most influential musicians of the 20th century, Miles Davis was, with his musical groups, at the forefront of several major developments in jazz music, including bebop, cool jazz, hard bop, modal jazz, and jazz fusion.</p>"
   genre: "Jazz"
   tracks: ---
   - "'Round Midnight"
@@ -127,7 +129,7 @@
 - name: "Bitches Brew"
   albumInfo: "Experimental jazz-rock fusion."
   artist: "Miles Davis"
-  artistInfo: "Miles career spanned 7 decades, and he always pushed forward."
+  artistInfo: "<p>Miles Davis (Miles Dewey Davis III, Alton, Illinois, May 25, 1926 – Santa Monica, California, September 28, 1991) was an American trumpeter, bandleader and composer.</p><p>Davis was at the forefront of almost every major development in jazz after World War II. He was one of the most influential and innovative musicians of the 20th century.</p><p>Widely considered one of the most influential musicians of the 20th century, Miles Davis was, with his musical groups, at the forefront of several major developments in jazz music, including bebop, cool jazz, hard bop, modal jazz, and jazz fusion.</p>"
   genre: "Jazz"
   tracks: ---
   - "Pharaoh's Dance"
@@ -139,7 +141,8 @@
 - name: "Mingus Ah Um"
   albumInfo: ""
   artist: "Charles Mingus"
-  artistInfo: ""
+  artistInfo: "<p>Charles Mingus (22nd April 1922 – 5th January 1979) was an American jazz bassist, composer, bandleader, and occasional pianist. He was also known for his activism against racial injustice.</p><p>Mingus’ legacy is notable: he is ranked among the finest composers and performers in jazz, and recorded many highly regarded albums. Dozens of musicians passed through his bands and later went on to impressive careers.</p>"
+
   genre: "Jazz"
   tracks: ---
   - "Better Git It In Your Soul"
@@ -154,7 +157,7 @@
 - name: "Blues and Roots"
   albumInfo: ""
   artist: "Charles Mingus"
-  artistInfo: ""
+  artistInfo: "<p>Charles Mingus (22nd April 1922 – 5th January 1979) was an American jazz bassist, composer, bandleader, and occasional pianist. He was also known for his activism against racial injustice.</p><p>Mingus’ legacy is notable: he is ranked among the finest composers and performers in jazz, and recorded many highly regarded albums. Dozens of musicians passed through his bands and later went on to impressive careers.</p>"
   genre: "Jazz"
   tracks: ---
   - "Wednesday Night Prayer Meeting"
@@ -166,7 +169,7 @@
 - name: "Live in Cook County Jail"
   albumInfo: ""
   artist: "B.B.King"
-  artistInfo: ""
+  artistInfo: "<p>Riley B. King aka B. B. King (born September 16th, 1925 in Itta Bena, Mississippi) is a well known American blues guitarist and songwriter. He is among the most respected electric guitarists. </p><p>One of King’s trademarks is naming his guitar (Gibson ES335) “Lucille”. In the 1950s in a bar in Twist, Arkansas two men got into a fight, accidentally knocking over a bucket of burning kerosene (used for heating) and setting the establishment on fire. Risking his life, B.B. King ran back into the collapsing building to retrieve his guitar.</p>"
   genre: "Blues"
   tracks: ---
   - "Introduction"
@@ -181,7 +184,7 @@
 - name: "Couldn't stand the weather"
   albumInfo: ""
   artist: "Stevie Ray Vaughan"
-  artistInfo: ""
+  artistInfo: "<p>Stephen (“Stevie”) Ray Vaughan, born in Dallas, Texas (October 3, 1954 – August 27, 1990) was an American blues guitar legend, and is known as one of the most influential blues musicians in history.</p><p>Stevie Ray had been in numerous bands before joining blues rock combo Stevie Ray Vaughan and Double Trouble in the late 1970’s.</p><p>Stevie Ray Vaughan and Double Trouble’s debut album was released in 1983. The critically acclaimed Texas Flood (1983) featured the top-20 hit Pride And Joy and sold well in both blues and rock circles.</p>"
   genre: "Blues"
   tracks: ---
   - "Scuttle Buttin'"
@@ -195,7 +198,7 @@
 - name: "Soul to soul"
   albumInfo: ""
   artist: "Stevie Ray Vaughan"
-  artistInfo: ""
+  artistInfo: "<p>Stephen (“Stevie”) Ray Vaughan, born in Dallas, Texas (October 3, 1954 – August 27, 1990) was an American blues guitar legend, and is known as one of the most influential blues musicians in history.</p><p>Stevie Ray had been in numerous bands before joining blues rock combo Stevie Ray Vaughan and Double Trouble in the late 1970’s.</p><p>Stevie Ray Vaughan and Double Trouble’s debut album was released in 1983. The critically acclaimed Texas Flood (1983) featured the top-20 hit Pride And Joy and sold well in both blues and rock circles.</p>"
   genre: "Blues"
   tracks: ---
   - "Say What!"
@@ -211,7 +214,7 @@
 - name: "Texas Flood"
   albumInfo: ""
   artist: "Stevie Ray Vaughan"
-  artistInfo: ""
+  artistInfo: "<p>Stephen (“Stevie”) Ray Vaughan, born in Dallas, Texas (October 3, 1954 – August 27, 1990) was an American blues guitar legend, and is known as one of the most influential blues musicians in history.</p><p>Stevie Ray had been in numerous bands before joining blues rock combo Stevie Ray Vaughan and Double Trouble in the late 1970’s.</p><p>Stevie Ray Vaughan and Double Trouble’s debut album was released in 1983. The critically acclaimed Texas Flood (1983) featured the top-20 hit Pride And Joy and sold well in both blues and rock circles.</p>"
   genre: "Blues"
   tracks: ---
   - "Love Struck Baby"
@@ -227,7 +230,8 @@
 - name: "The Beano Album"
   albumInfo: "The famous Beano Album, which thrusted a young Eric Clapton into the public ear for the first time."
   artist: "John Mayall's Bluesbreakers"
-  artistInfo: "John Mayall's Bluesbreakers was an institution, where the likes of Eric Clapton and Peter Green cut their teeth."
+  artistInfo: "<p>John Mayall & the Bluesbreakers are a pioneering English blues band, led by singer, songwriter, and multi-instrumentalist John Mayall, OBE. Mayall used the band name between 1963 and ‘67 then dropped it for some fifteen years, but in 1982 a ‘Return of the Bluesbreakers’ was announced and it has been kept since then. The name has become generic without a clear distinction which recordings are to be credited just to the leader or to leader and his band. </p>"
+
   genre: "Blues"
   tracks: ---
   - "All your love"
@@ -247,7 +251,7 @@
 - name: "A Hard Road"
   albumInfo: ""
   artist: "John Mayall's Bluesbreakers"
-  artistInfo: "John Mayall's Bluesbreakers was an institution, where the likes of Eric Clapton and Peter Green cut their teeth."
+  artistInfo: "<p>John Mayall & the Bluesbreakers are a pioneering English blues band, led by singer, songwriter, and multi-instrumentalist John Mayall, OBE. Mayall used the band name between 1963 and ‘67 then dropped it for some fifteen years, but in 1982 a ‘Return of the Bluesbreakers’ was announced and it has been kept since then. The name has become generic without a clear distinction which recordings are to be credited just to the leader or to leader and his band. </p>"
   genre: "Blues"
   tracks: ---
   - "A Hard Road"

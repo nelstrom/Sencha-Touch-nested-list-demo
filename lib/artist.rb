@@ -4,7 +4,7 @@ class Artist
 
   property :id,   Serial
   property :name, String, :length => 0..50
-  property :info, String, :length => 0..255, :default => ""
+  property :info, String, :length => 0..1000, :default => ""
   
   has n, :albums
   has n, :genres, :through => :albums
