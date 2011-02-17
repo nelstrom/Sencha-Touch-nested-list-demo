@@ -12,9 +12,9 @@ NestedListDemo.views.Viewport = Ext.extend(Ext.TabPanel, {
         //put instances of cards into viewport
         Ext.apply(this, {
             items: [
-                NestedListDemo.views.artistsList,
+                NestedListDemo.views.tracksList,
                 NestedListDemo.views.albumsList,
-                NestedListDemo.views.tracksList
+                NestedListDemo.views.artistsList
             ]
         });
         NestedListDemo.views.Viewport.superclass.initComponent.apply(this, arguments);
