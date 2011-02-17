@@ -1,0 +1,12 @@
+[_] add meta-data to list views
+	[_] genre
+		[_] leave as is
+	[_] artist
+		[_] show number of albums
+	[_] album
+		[_] show number of tracks
+		[_] show total duration
+	[_] track
+		[_] show duration
+	[_] track detail page
+		[_] embed an mp3 media file?
