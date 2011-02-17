@@ -4,5 +4,6 @@ Ext.regModel('ListItem', {
 		{name: 'info', type: 'string'},
 		{name: 'model', type: 'string'},
 		{name: 'items', type: 'auto'},
+		{name: 'duration', type: 'auto'},
 	]
 });

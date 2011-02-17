@@ -13,7 +13,7 @@ NestedListDemo.views.Tracks = Ext.extend(Ext.NestedList, {
             ' {[values.items.length]} tracks' +
             '</tpl>' +
             '<tpl if="model === \'Track\'">'+
-            ' [track]' +
+            ' {duration}' +
             '</tpl>' +
             '';
         return tplConstructor;
