@@ -1,7 +1,7 @@
-[_] duration
+[X] duration
 	[X] add to catalogueItem JS model
 	[X] add to track model
-	[_] ensure that duration is included in the json
+	[X] ensure that duration is included in the json
 [_] dataset
 	[_] add durations for tracks (in seconds)
 		[X] test on small dataset
@@ -17,8 +17,8 @@
 		[X] show number of albums
 	[_] album
 		[X] show number of tracks
-		[_] show total duration
+		[_] show total duration (hours:minutes:seconds)
 	[_] track
-		[_] show duration
+		[_] show duration (hours:minutes:seconds)
 	[_] track detail page
 		[_] embed an mp3 media file?
