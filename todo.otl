@@ -3,22 +3,23 @@
 	[X] add to track model
 	[X] ensure that duration is included in the json
 [_] dataset
-	[_] add durations for tracks (in seconds)
+	[X] add durations for tracks (in seconds)
 		[X] test on small dataset
-		[_] apply to whole dataset
+		[X] apply to whole dataset
 	[_] add src to tracks (to a fictional mp3 file)
+	: or, just create a default value?
 [_] add meta-data to list views
-	[_] style meta data
-		[_] put it on a new line
-		[_] reduce text size/contrast
+	[X] style meta data
+		[X] put it on a new line
+		[X] reduce text size/contrast
 	[X] genre
 		[X] leave as is
 	[X] artist
 		[X] show number of albums
 	[_] album
 		[X] show number of tracks
-		[_] show total duration (hours:minutes:seconds)
+		[_] show total duration (minutes:seconds)
 	[_] track
-		[_] show duration (hours:minutes:seconds)
+		[_] show duration (minutes:seconds)
 	[_] track detail page
 		[_] embed an mp3 media file?
