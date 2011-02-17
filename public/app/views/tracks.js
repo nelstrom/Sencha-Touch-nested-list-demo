@@ -9,6 +9,7 @@ NestedListDemo.views.Tracks = Ext.extend(Ext.NestedList, {
             '<tpl if="model === \'Album\'">'+
             '<div class="metadata">' +
             ' {[values.items.length]} tracks' +
+            // ideally, want to sum the duration of all tracks
             ' Running time: {[values.items]}' +
             '</div>' +
             '</tpl>' +
