@@ -1,10 +1,16 @@
+[_] dataset
+	[_] add durations for tracks (in seconds)
+	[_] add src to tracks (to a fictional mp3 file)
 [_] add meta-data to list views
-	[_] genre
-		[_] leave as is
-	[_] artist
-		[_] show number of albums
+	[_] style meta data
+		[_] put it on a new line
+		[_] reduce text size/contrast
+	[X] genre
+		[X] leave as is
+	[X] artist
+		[X] show number of albums
 	[_] album
-		[_] show number of tracks
+		[X] show number of tracks
 		[_] show total duration
 	[_] track
 		[_] show duration

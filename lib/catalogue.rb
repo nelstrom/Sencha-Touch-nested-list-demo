@@ -7,7 +7,7 @@ class Catalogue
   end
 
   def self.import(data)
-    data = OpenStruct.new data
+    data = OpenStruct.new(data)
     artist = Artist.first_or_create(
       :name => data.artist,
       :info => data.artistInfo
@@ -21,7 +21,12 @@ class Catalogue
     )
     data.tracks ||= []
     data.tracks.each_with_index do |track, index|
-      album.tracks.create(:name => track, :position => index)
+      data = OpenStruct.new(track)
+      album.tracks.create(
+        :name => data.name,
+        :duration => data.duration,
+        :position => index
+      )
     end
   end
 end

@@ -29,7 +29,7 @@ namespace :db do
   desc 'Seed data'
   task :seed => :migrate do
     require 'yaml'
-    YAML.load_file("music.yml").each do |attributes|
+    YAML.load_file("music2.yml").each do |attributes|
       Catalogue.import(attributes)
     end
   end
