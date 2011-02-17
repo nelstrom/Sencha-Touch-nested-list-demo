@@ -10,7 +10,7 @@ NestedListDemo.views.Tracks = Ext.extend(Ext.NestedList, {
             ' {[values.items.length]} albums' +
             '</tpl>' +
             '<tpl if="model === \'Album\'">'+
-            ' [album]' +
+            ' {[values.items.length]} tracks' +
             '</tpl>' +
             '<tpl if="model === \'Track\'">'+
             ' [track]' +
