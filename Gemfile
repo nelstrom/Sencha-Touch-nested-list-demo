@@ -21,3 +21,9 @@ group :development do
   gem "ruby-debug", "0.10.3"
   gem "ruby-debug-base", "0.10.3"
 end
+
+group :test do
+  gem "dm-sqlite-adapter"
+  gem "do_sqlite3"
+end
+
