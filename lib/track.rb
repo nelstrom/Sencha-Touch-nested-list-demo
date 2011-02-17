@@ -17,4 +17,7 @@ class Track
     true
   end
 
+  def append_fields(items)
+    items.merge(:duration => (self.respond_to?(:duration) ? self.duration : nil))
+  end
 end

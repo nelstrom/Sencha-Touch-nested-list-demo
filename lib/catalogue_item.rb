@@ -22,7 +22,9 @@ module CatalogueItem
     { :leaf => :album }
   end
 
+  # Models can use this method to inject any custom fields
+  # The basic implementation returns what it was passed.
   def append_fields(items)
-    items.merge(:duration => (self.respond_to?(:duration) ? self.duration : nil))
+    items
   end
 end
