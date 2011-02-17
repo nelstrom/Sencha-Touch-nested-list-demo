@@ -1,14 +1,13 @@
 module CatalogueItem
   def catalogue(options={})
     options = catalogue_defaults.merge(options)
-    {
+    append_fields({
       :text => self.name,
       :info => self.info,
-      :duration => (self.respond_to?(:duration) ? self.duration : nil),
       :model => self.class.to_s,
       :leaf => leaf(options),
       :items => items(options)
-    }
+    })
   end
 
   def items(options={})
@@ -21,5 +20,9 @@ module CatalogueItem
 
   def catalogue_defaults
     { :leaf => :album }
+  end
+
+  def append_fields(items)
+    items.merge(:duration => (self.respond_to?(:duration) ? self.duration : nil))
   end
 end
