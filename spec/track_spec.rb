@@ -2,7 +2,7 @@ require "#{File.dirname(__FILE__)}/spec_helper"
 
 describe 'track' do
   before(:each) do
-    @track = Track.new(:name => 'test track')
+    @track = Track.new(:name => 'test track', :duration => 100)
   end
 
   specify 'should be valid' do
@@ -24,6 +24,9 @@ describe 'track' do
     end
     specify 'returns a hash with :model set "Track"' do
       @track.catalogue[:model].should == "Track"
+    end
+    specify 'returns a hash with :duration field' do
+      @track.catalogue[:duration].should == 100
     end
   end
 end
