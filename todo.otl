@@ -1,5 +1,11 @@
+[_] duration
+	[X] add to catalogueItem JS model
+	[X] add to track model
+	[_] ensure that duration is included in the json
 [_] dataset
 	[_] add durations for tracks (in seconds)
+		[X] test on small dataset
+		[_] apply to whole dataset
 	[_] add src to tracks (to a fictional mp3 file)
 [_] add meta-data to list views
 	[_] style meta data
