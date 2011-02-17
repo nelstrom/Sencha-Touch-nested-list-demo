@@ -3,18 +3,19 @@ NestedListDemo.views.Tracks = Ext.extend(Ext.NestedList, {
     displayField: 'text',
     getItemTextTpl: function() {
         var tplConstructor = '{text}' +
-            '<tpl if="model === \'Genre\'">'+
-            ' [genre]' +
-            '</tpl>' +
             '<tpl if="model === \'Artist\'">'+
-            ' {[values.items.length]} albums' +
+            ' <div class="metadata">{[values.items.length]} albums</div>' +
             '</tpl>' +
             '<tpl if="model === \'Album\'">'+
+            '<div class="metadata">' +
             ' {[values.items.length]} tracks' +
             ' Running time: {[values.items]}' +
+            '</div>' +
             '</tpl>' +
             '<tpl if="model === \'Track\'">'+
-            ' {duration}' +
+            '<div class="metadata">' +
+            ' Running time: {duration} seconds' +
+            '</div>' +
             '</tpl>' +
             '';
         return tplConstructor;
