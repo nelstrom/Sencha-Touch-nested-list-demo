@@ -4,21 +4,28 @@ NestedListDemo.views.Tracks = Ext.extend(Ext.NestedList, {
     getItemTextTpl: function() {
         var tplConstructor = '{text}' +
             '<tpl if="model === \'Artist\'">'+
-            ' <div class="metadata">{[values.items.length]} albums</div>' +
+                '<div class="metadata">' +
+                    ' {[values.items.length]} albums' +
+                '</div>' +
             '</tpl>' +
             '<tpl if="model === \'Album\'">'+
-            '<div class="metadata">' +
-            ' {[values.items.length]} tracks' +
-            // ideally, want to sum the duration of all tracks
-            ' Running time: {[values.items]}' +
-            '</div>' +
+                '<div class="metadata">' +
+                    ' {[values.items.length]} tracks' +
+                    // ideally, want to sum the duration of all tracks
+                    ' Running time: {[values.items]}' +
+                '</div>' +
             '</tpl>' +
             '<tpl if="model === \'Track\'">'+
-            '<div class="metadata">' +
-            ' Running time: {duration} seconds' +
-            '</div>' +
-            '</tpl>' +
-            '';
+                '<div class="metadata">' +
+                    ' Running time: {duration} seconds' +
+                '</div>' +
+            '</tpl>';
+
+        // If I use construct an XTemplate here and return it,
+        // the template breaks
+        //return new Ext.XTemplate(tplConstructor);
+
+        // If I return the string, the template works
         return tplConstructor;
     },
     store: NestedListDemo.tracks_store,
