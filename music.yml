@@ -5,74 +5,124 @@
   artistInfo: "<p>AC/DC are an Australian rock band, formed in 1973 by brothers Malcolm and Angus Young. Although the band are commonly classified as hard rock and are considered a pioneer of heavy metal, they have always classified their music as rock and roll. To date they are one of the highest grossing bands of all time. AC/DC underwent several line-up changes before releasing their first album, High Voltage, in 1975. Membership remained stable until bassist Mark Evans was replaced by Cliff Williams in 1978 for the album Powerage. Within months of recording the album Highway to Hell, lead singer and co-songwriter Bon Scott died on 19 February 1980, after a night of heavy alcohol consumption. The group briefly considered disbanding, but Scott's parents urged them to continue and hire a new vocalist. Ex-Geordie singer Brian Johnson was auditioned and selected to replace Scott. Later that year, the band released their highest selling album, Back in Black.</p>"
   genre: "Rock"
   tracks: ---
-  -  "Hells Bells"
-  -  "Shoot to Thrill"
-  -  "What do you do for money honey"
-  -  "Give the dog a bone"
-  -  "Let me put my love into you"
-  -  "Back in Black"
-  -  "You shook me all night long"
-  -  "Have a drink on me"
-  -  "Shake a leg"
-  -  "Rock and roll ain't noise pollution"
+  - name: "Hells Bells"
+    duration: 147
+  - name: "Shoot to Thrill"
+    duration: 108
+  - name: "What do you do for money honey"
+    duration: 121
+  - name: "Give the dog a bone"
+    duration: 108
+  - name: "Let me put my love into you"
+    duration: 127
+  - name: "Back in Black"
+    duration: 190
+  - name: "You shook me all night long"
+    duration: 163
+  - name: "Have a drink on me"
+    duration: 121
+  - name: "Shake a leg"
+    duration: 187
+  - name: "Rock and roll ain't noise pollution"
+    duration: 90
 - name: "Nevermind"
   albumInfo: "This seminal album changed the face of music forever."
   artist: "Nirvana"
   artistInfo: "Nirvana's raw music was a reaction against the glam rock of the previous decade."
   genre: "Rock"
   tracks: ---
-  -  "Smells Like Teen Spirit"
-  -  "In Bloom"
-  -  "Come As You Are"
-  -  "Breed"
-  -  "Lithium"
-  -  "Polly"
-  -  "Territorial Pissings"
-  -  "Drain You"
-  -  "Lounge Act"
-  -  "Stay Away"
-  -  "On A Plain"
-  -  "Something In The Way"
+  - name: "Smells Like Teen Spirit"
+    duration: 167
+  - name: "In Bloom"
+    duration: 98
+  - name: "Come As You Are"
+    duration: 120
+  - name: "Breed"
+    duration: 172
+  - name: "Lithium"
+    duration: 187
+  - name: "Polly"
+    duration: 108
+  - name: "Territorial Pissings"
+    duration: 106
+  - name: "Drain You"
+    duration: 177
+  - name: "Lounge Act"
+    duration: 182
+  - name: "Stay Away"
+    duration: 125
+  - name: "On A Plain"
+    duration: 91
+  - name: "Something In The Way"
+    duration: 120
 - name: "Space Oddity"
   albumInfo: "<p>Space Oddity is a 1969 album by rock musician David Bowie. Originally released by Philips in the UK as David Bowie and by Mercury in the U.S. as Man of Words/Man of Music, it was reissued by RCA Records in 1972 under its current title.</p>"
   artist: "David Bowie"
   artistInfo: "<p>David Bowie (born David Robert Jones on 8th January 1947 in Brixton, London, England, United Kingdom) is an English singer, songwriter, musician, and actor. Active in five decades of popular music and frequently reinventing his music and image, Bowie is widely regarded as an innovator, particularly for his work in the 1970s. He has been cited as an influence by many musicians and is known for his distinctive voice and the intellectual depth of his work.</p>"
   genre: "Pop"
   tracks: ---
-  - "Space Oddity"
-  - "Unwashed and Somewhat Slightly Dazed"
-  - "(Don't Sit Down)"
-  - "Letter to Hermione"
-  - "Cygnet Committee"
-  - "Janine"
-  - "An Occasional Dream"
-  - "Wild Eyed Boy From Freecloud"
-  - "God Knows I'm Good"
-  - "Memory of a Free Festival"
+  - name: "Space Oddity"
+    duration: 107
+  - name: "Unwashed and Somewhat Slightly Dazed"
+    duration: 156
+  - name: "(Don't Sit Down)"
+    duration: 103
+  - name: "Letter to Hermione"
+    duration: 137
+  - name: "Cygnet Committee"
+    duration: 90
+  - name: "Janine"
+    duration: 181
+  - name: "An Occasional Dream"
+    duration: 138
+  - name: "Wild Eyed Boy From Freecloud"
+    duration: 105
+  - name: "God Knows I'm Good"
+    duration: 127
+  - name: "Memory of a Free Festival"
+    duration: 136
 - name: "Changesbowie"
   albumInfo: "<p>Changesbowie is a compilation album by David Bowie, released in 1990 in the United States by Rykodisc and by EMI in the UK as part of Rykodisc's Bowie remastering program, to replace the deleted RCA Records compilation Changesonebowie.</p><p>While the cover artwork was generally dismissed as amateurish (“a sixth-form cut 'n' paste collage”, according to author David Buckley), the collection made #1 in the UK, giving Bowie his first chart-topping album since Tonight in 1984.</p>"
   artist: "David Bowie"
   artistInfo: "<p>David Bowie (born David Robert Jones on 8th January 1947 in Brixton, London, England, United Kingdom) is an English singer, songwriter, musician, and actor. Active in five decades of popular music and frequently reinventing his music and image, Bowie is widely regarded as an innovator, particularly for his work in the 1970s. He has been cited as an influence by many musicians and is known for his distinctive voice and the intellectual depth of his work.</p>"
   genre: "Pop"
   tracks: ---
-  - "Space Oddity"
-  - "John, I'm Only Dancing"
-  - "Changes"
-  - "Ziggy Stardust"
-  - "Suffragette City"
-  - "The Jean Genie"
-  - "Diamond Dogs"
-  - "Rebel Rebel"
-  - "Young Americans"
-  - "Fame ('90 Remix)"
-  - "Golden Years"
-  - "Heroes"
-  - "Ashes to Ashes"
-  - "Fashion"
-  - "Let's Dance"
-  - "China Girl"
-  - "Modern Love"
-  - "Blue Jean"
+  - name: "Space Oddity"
+    duration: 101
+  - name: "John, I'm Only Dancing"
+    duration: 154
+  - name: "Changes"
+    duration: 105
+  - name: "Ziggy Stardust"
+    duration: 181
+  - name: "Suffragette City"
+    duration: 169
+  - name: "The Jean Genie"
+    duration: 114
+  - name: "Diamond Dogs"
+    duration: 162
+  - name: "Rebel Rebel"
+    duration: 125
+  - name: "Young Americans"
+    duration: 130
+  - name: "Fame ('90 Remix)"
+    duration: 129
+  - name: "Golden Years"
+    duration: 131
+  - name: "Heroes"
+    duration: 186
+  - name: "Ashes to Ashes"
+    duration: 110
+  - name: "Fashion"
+    duration: 118
+  - name: "Let's Dance"
+    duration: 113
+  - name: "China Girl"
+    duration: 120
+  - name: "Modern Love"
+    duration: 181
+  - name: "Blue Jean"
+    duration: 114
 - name: "Revolver"
   albumInfo: "<p>Revolver is the seventh album by English rock group The Beatles, released on 5 August 1966. Many of the tracks on Revolver are marked by an electric guitar-rock sound, in contrast with their previous, folk rock inspired Rubber Soul. It reached number one on both the British chart and American chart and stayed at the top spot for seven weeks and six weeks, respectively.</p>
 <p>Placed at number 3 in the Rolling Stone magazine's list of the 500 greatest albums of all time, the album is often regarded as one of the greatest achievements in rock music history and one of The Beatles' greatest studio achievements.</p>"
@@ -81,61 +131,104 @@
   artistInfo: "<p>The Beatles were an iconic rock group from Liverpool, England. They are frequently cited as the most commercially successful and critically acclaimed band in modern history, with innovative music, a cultural impact that helped define the 1960s and an enormous influence on music that is still felt today. Currently, The Beatles are one of the two musical acts to sell more than 1 billion records, with only Elvis Presley having been able to achieve the same feat.</p>"
   genre: "Pop"
   tracks: ---
-  - "Taxman"
-  - "Eleanor Rigby"
-  - "I'm Only Sleeping"
-  - "Love You To"
-  - "Here, There and Everywhere"
-  - "Yellow Submarine"
-  - "She Said, She Said"
-  - "Good Day Sunshine"
-  - "And Your Bird Can Sing"
-  - "For No One"
-  - "Doctor Robert"
-  - "I Want to Tell You"
-  - "Got to Get You into My Life"
-  - "Tomorrow Never Knows"
+  - name: "Taxman"
+    duration: 155
+  - name: "Eleanor Rigby"
+    duration: 154
+  - name: "I'm Only Sleeping"
+    duration: 97
+  - name: "Love You To"
+    duration: 145
+  - name: "Here, There and Everywhere"
+    duration: 180
+  - name: "Yellow Submarine"
+    duration: 139
+  - name: "She Said, She Said"
+    duration: 147
+  - name: "Good Day Sunshine"
+    duration: 114
+  - name: "And Your Bird Can Sing"
+    duration: 101
+  - name: "For No One"
+    duration: 159
+  - name: "Doctor Robert"
+    duration: 114
+  - name: "I Want to Tell You"
+    duration: 170
+  - name: "Got to Get You into My Life"
+    duration: 179
+  - name: "Tomorrow Never Knows"
+    duration: 186
 - name: "Abbey Road"
   albumInfo: "<p>Abbey Road is the eleventh official album released by The Beatles. Though work on Abbey Road began in April 1969, making it the twelfth and final album recorded by the band; Let It Be was the last album released before the Beatles’ dissolution in 1970. Abbey Road was released on 26 September 1969 in the United Kingdom, and 1 October 1969 in the United States. It was produced and orchestrated by George Martin for Apple Records. Geoff Emerick was engineer, Alan Parsons was assistant engineer, and Tony Banks was tape operator. It is regarded as one of The Beatles’ most tightly constructed albums, although the band was barely operating as a functioning unit at the time. Rolling Stone magazine named it the 14th greatest album of all time.</p>"
   artist: "The Beatles"
   artistInfo: "<p>The Beatles were an iconic rock group from Liverpool, England. They are frequently cited as the most commercially successful and critically acclaimed band in modern history, with innovative music, a cultural impact that helped define the 1960s and an enormous influence on music that is still felt today. Currently, The Beatles are one of the two musical acts to sell more than 1 billion records, with only Elvis Presley having been able to achieve the same feat.</p>"
   genre: "Pop"
   tracks: ---
-  - "Come Together"
-  - "Something / Jam"
-  - "Maxwell's Silver Hammer"
-  - "Oh! Darling"
-  - "Octopus's Garden"
-  - "I Want You"
-  - "Come and Set It"
-  - "Oh, I Want You"
-  - "Because"
-  - "You Never Give Me Your Money"
-  - "Sun King"
-  - "Mean Mr. Mustard"
-  - "Her Majesty"
-  - "Polythene Pam"
-  - "She Came in Through the Bathroom Window"
-  - "Golden Slumbers"
-  - "Carry That Weight"
-  - "The End"
-  - "Ain't She Sweet (Rock'n'Roll Jam)"
-  - "Something (Harrison Solo)"
-  - "Maxwell's Silver Hammer (take 5)"
-  - "Octopus's Garden (take 2)"
-  - "You Never Give Me Your Money (take 30)"
-  - "Golden Slumbers / Carry That Weight (take 13)"
-  - "The End (remix)"
+  - name: "Come Together"
+    duration: 102
+  - name: "Something / Jam"
+    duration: 170
+  - name: "Maxwell's Silver Hammer"
+    duration: 167
+  - name: "Oh! Darling"
+    duration: 132
+  - name: "Octopus's Garden"
+    duration: 102
+  - name: "I Want You"
+    duration: 118
+  - name: "Come and Set It"
+    duration: 159
+  - name: "Oh, I Want You"
+    duration: 134
+  - name: "Because"
+    duration: 172
+  - name: "You Never Give Me Your Money"
+    duration: 182
+  - name: "Sun King"
+    duration: 143
+  - name: "Mean Mr. Mustard"
+    duration: 126
+  - name: "Her Majesty"
+    duration: 144
+  - name: "Polythene Pam"
+    duration: 175
+  - name: "She Came in Through the Bathroom Window"
+    duration: 97
+  - name: "Golden Slumbers"
+    duration: 150
+  - name: "Carry That Weight"
+    duration: 114
+  - name: "The End"
+    duration: 175
+  - name: "Ain't She Sweet (Rock'n'Roll Jam)"
+    duration: 144
+  - name: "Something (Harrison Solo)"
+    duration: 113
+  - name: "Maxwell's Silver Hammer (take 5)"
+    duration: 170
+  - name: "Octopus's Garden (take 2)"
+    duration: 91
+  - name: "You Never Give Me Your Money (take 30)"
+    duration: 93
+  - name: "Golden Slumbers / Carry That Weight (take 13)"
+    duration: 112
+  - name: "The End (remix)"
+    duration: 119
 - name: "A Love Supreme"
   albumInfo: "<p>A Love Supreme is a jazz studio album recorded by John Coltrane's quartet in December 1964[13] and released by Impulse! Records (catalogue number AS-77) in February 1965. It is generally considered to be among Coltrane's greatest works, as it melded the hard bop sensibilities of his early career with the free jazz style he adopted later.</p>"
   artist: "John Coltrane"
   artistInfo: "<p>John William Coltrane (Hamlet, North Carolina, September 23, 1926 – Huntington, New York, July 17, 1967) was an American jazz saxophonist and composer.</p><p>American jazz great John Coltrane emerged in the 1950s, playing tenor and soprano sax with Dizzy Gillespie, Miles Davis and Thelonious Monk. A leader of “hard bop”, in the 1960s he led his own groups and changed the face of jazz with experimentation and improvisation, his later recordings reflecting his belief that music was a form of spiritual expression.</p>"
   genre: "Jazz"
   tracks: ---
-  - "Part I: Acknowledgement"
-  - "Part II: Resolution"
-  - "Part III: Pursuance"
-  - "Part IV: Psalm"
+  - name: "Part I: Acknowledgement"
+    duration: 104
+  - name: "Part II: Resolution"
+    duration: 96
+  - name: "Part III: Pursuance"
+    duration: 100
+  - name: "Part IV: Psalm"
+    duration: 111
 - name: "My Favorite Things"
   albumInfo: "<p>My Favorite Things is a 1961 jazz album by John Coltrane. It was the first session recorded by Coltrane on the Atlantic Records label (as SD-1361), and the first to introduce his new quartet featuring McCoy Tyner (piano), Elvin Jones (drums) and Steve Davis (bass) -- neither Jimmy Garrison nor Reggie Workman featured as yet.</p> <p>The album was also the first to quite clearly mark Coltrane's change from bebop to free- and modal jazz, which was slowly becoming apparent in some of his previous releases. It introduces complex harmonic reworkings of such jazz standards as “My Favorite Things” and “But Not for Me”. Additionally, at a time when the soprano saxophone was little used in jazz, it demonstrated Coltrane's further investigation of the instrument's capabilities.</p>"
   artist: "John Coltrane"
@@ -143,10 +236,14 @@
   artistInfo: "<p>John William Coltrane (Hamlet, North Carolina, September 23, 1926 – Huntington, New York, July 17, 1967) was an American jazz saxophonist and composer.</p><p>American jazz great John Coltrane emerged in the 1950s, playing tenor and soprano sax with Dizzy Gillespie, Miles Davis and Thelonious Monk. A leader of “hard bop”, in the 1960s he led his own groups and changed the face of jazz with experimentation and improvisation, his later recordings reflecting his belief that music was a form of spiritual expression.</p>"
   genre: "Jazz"
   tracks: ---
-  - "My Favourite Things"
-  - "Everytime we say Goodbye"
-  - "Summertime"
-  - "But not for me"
+  - name: "My Favourite Things"
+    duration: 139
+  - name: "Everytime we say Goodbye"
+    duration: 138
+  - name: "Summertime"
+    duration: 136
+  - name: "But not for me"
+    duration: 183
 - name: "Kind of Blue"
   albumInfo: "<p>Kind of Blue is a studio album by American jazz musician Miles Davis, released August 17, 1959, on Columbia Records in the United States. Recording sessions for the album took place at Columbia's 30th Street Studio in New York City on March 2 and April 22, 1959. The sessions featured Davis's ensemble sextet, which consisted of pianists Bill Evans and Wynton Kelly, drummer Jimmy Cobb, bassist Paul Chambers, and saxophonists John Coltrane and Julian “Cannonball” Adderley. After the inclusion of Bill Evans into his sextet, Davis followed up on the modal experimentations of Milestones (1958) and 1958 Miles (1958) by basing the album entirely on modality, in contrast to his earlier work with the hard bop style of jazz.</p>"
   artist: "Miles Davis"
@@ -154,115 +251,182 @@
 
   genre: "Jazz"
   tracks: ---
-  - "So What"
-  - "Freddie Freeloader"
-  - "Blue in Green"
-  - "All Blues"
-  - "Flamenco Sketches"
+  - name: "So What"
+    duration: 113
+  - name: "Freddie Freeloader"
+    duration: 150
+  - name: "Blue in Green"
+    duration: 121
+  - name: "All Blues"
+    duration: 134
+  - name: "Flamenco Sketches"
+    duration: 185
 - name: "Round About Midnight"
   albumInfo: "<p>'Round About Midnight is an album by jazz musician Miles Davis. It was his debut on Columbia Records, and was originally released in March 1957 (CL 949). The album took its name from the Thelonious Monk song “'Round Midnight”.</p>"
   artist: "Miles Davis"
   artistInfo: "<p>Miles Davis (Miles Dewey Davis III, Alton, Illinois, May 25, 1926 – Santa Monica, California, September 28, 1991) was an American trumpeter, bandleader and composer.</p><p>Davis was at the forefront of almost every major development in jazz after World War II. He was one of the most influential and innovative musicians of the 20th century.</p><p>Widely considered one of the most influential musicians of the 20th century, Miles Davis was, with his musical groups, at the forefront of several major developments in jazz music, including bebop, cool jazz, hard bop, modal jazz, and jazz fusion.</p>"
   genre: "Jazz"
   tracks: ---
-  - "'Round Midnight"
-  - "Ah-Leu-Cha"
-  - "All of You"
-  - "Bye Bye Blackbird"
-  - "Tadd's Delight"
-  - "Dear Old Stockholm"
-  - "Two Bass Hit"
-  - "Little Melonae"
-  - "Budo"
-  - "Sweet Sue, Just You"
+  - name: "'Round Midnight"
+    duration: 153
+  - name: "Ah-Leu-Cha"
+    duration: 170
+  - name: "All of You"
+    duration: 152
+  - name: "Bye Bye Blackbird"
+    duration: 100
+  - name: "Tadd's Delight"
+    duration: 182
+  - name: "Dear Old Stockholm"
+    duration: 141
+  - name: "Two Bass Hit"
+    duration: 113
+  - name: "Little Melonae"
+    duration: 155
+  - name: "Budo"
+    duration: 183
+  - name: "Sweet Sue, Just You"
+    duration: 184
 - name: "Mingus Ah Um"
   albumInfo: "<p>Mingus Ah Um is a jazz album by Charles Mingus, recorded and released on Columbia Records in 1959, as CK 65512. It was his first album recorded for Columbia. The cover features a painting by S. Neil Fujita.</p>"
   artist: "Charles Mingus"
   artistInfo: "<p>Charles Mingus (22nd April 1922 – 5th January 1979) was an American jazz bassist, composer, bandleader, and occasional pianist. He was also known for his activism against racial injustice.</p><p>Mingus’ legacy is notable: he is ranked among the finest composers and performers in jazz, and recorded many highly regarded albums. Dozens of musicians passed through his bands and later went on to impressive careers.</p>"
   genre: "Jazz"
   tracks: ---
-  - "Better Git It In Your Soul"
-  - "Goodbye Pork Pie Hat"
-  - "Boogie Stop Shuffle"
-  - "Self-Portrait In Three Colors"
-  - "Open Letter To Duke"
-  - "Bird Calls"
-  - "Fable Of Faubus"
-  - "Pussy Cat Dues"
-  - "Jelly Roll"
+  - name: "Better Git It In Your Soul"
+    duration: 112
+  - name: "Goodbye Pork Pie Hat"
+    duration: 168
+  - name: "Boogie Stop Shuffle"
+    duration: 121
+  - name: "Self-Portrait In Three Colors"
+    duration: 124
+  - name: "Open Letter To Duke"
+    duration: 139
+  - name: "Bird Calls"
+    duration: 166
+  - name: "Fable Of Faubus"
+    duration: 167
+  - name: "Pussy Cat Dues"
+    duration: 122
+  - name: "Jelly Roll"
+    duration: 120
 - name: "Blues and Roots"
   albumInfo: "<p>Blues & Roots is an album by Charles Mingus, recorded in 1959 and released in 1960. It has been reissued twice as a CD, first by Atlantic Records, and then again by Rhino Entertainment in 1998.</p>"
   artist: "Charles Mingus"
   artistInfo: "<p>Charles Mingus (22nd April 1922 – 5th January 1979) was an American jazz bassist, composer, bandleader, and occasional pianist. He was also known for his activism against racial injustice.</p><p>Mingus’ legacy is notable: he is ranked among the finest composers and performers in jazz, and recorded many highly regarded albums. Dozens of musicians passed through his bands and later went on to impressive careers.</p>"
   genre: "Jazz"
   tracks: ---
-  - "Wednesday Night Prayer Meeting"
-  - "Cryin' Blues"
-  - "Moanin'"
-  - "Tensions"
-  - "My Jelly Roll Soul"
-  - "E's Flat Ah's Flat Too"
+  - name: "Wednesday Night Prayer Meeting"
+    duration: 147
+  - name: "Cryin' Blues"
+    duration: 130
+  - name: "Moanin'"
+    duration: 126
+  - name: "Tensions"
+    duration: 142
+  - name: "My Jelly Roll Soul"
+    duration: 90
+  - name: "E's Flat Ah's Flat Too"
+    duration: 146
 - name: "Live in Cook County Jail"
   albumInfo: "<p>Live in Cook County Jail is a 1971 live album by B.B. King recorded in Cook County Jail, Chicago, Illinois. It was ranked as number 499 in the book version of Rolling Stone's 500 Greatest Albums of All Time.</p>"
   artist: "B.B.King"
   artistInfo: "<p>Riley B. King aka B. B. King (born September 16th, 1925 in Itta Bena, Mississippi) is a well known American blues guitarist and songwriter. He is among the most respected electric guitarists. </p><p>One of King’s trademarks is naming his guitar (Gibson ES335) “Lucille”. In the 1950s in a bar in Twist, Arkansas two men got into a fight, accidentally knocking over a bucket of burning kerosene (used for heating) and setting the establishment on fire. Risking his life, B.B. King ran back into the collapsing building to retrieve his guitar.</p>"
   genre: "Blues"
   tracks: ---
-  - "Introduction"
-  - "Every Day I Have The Blues"
-  - "How Blue Can You Get?"
-  - "Worry, Worry, Worry"
-  - "3 O'Clock Blues"
-  - "Darlin' You Know I Love You"
-  - "Sweet Sixteen"
-  - "The Thrill Is Gone"
-  - "Please Accept My Love"
+  - name: "Introduction"
+    duration: 96
+  - name: "Every Day I Have The Blues"
+    duration: 189
+  - name: "How Blue Can You Get?"
+    duration: 167
+  - name: "Worry, Worry, Worry"
+    duration: 141
+  - name: "3 O'Clock Blues"
+    duration: 144
+  - name: "Darlin' You Know I Love You"
+    duration: 97
+  - name: "Sweet Sixteen"
+    duration: 175
+  - name: "The Thrill Is Gone"
+    duration: 114
+  - name: "Please Accept My Love"
+    duration: 155
 - name: "Texas Flood"
   albumInfo: "<p>Texas Flood is the debut album of American blues musician Stevie Ray Vaughan and his band Double Trouble, released June 13, 1983 on Epic Records. The album was recorded in only three days, at Jackson Browne's personal recording studio, in 1982 since the band had been playing many live sets beforehand.</p><p>More popular than any blues album in nearly twenty years, Texas Flood was a surprise success for Vaughan, who had labored in obscurity for years. On the North American Billboard Music Charts, Texas Flood peaked at #64 and #38 on the Billboard 200 and Pop Albums charts, respectively. The single “Pride and Joy” peaked at #20 on the Mainstream Rock chart. The album was Grammy nominated in 1983 for “Best Blues Recording” along with “Rude Mood”, which was nominated for “Best Blues Instrumental Performance”.</p>"
   artist: "Stevie Ray Vaughan"
   artistInfo: "<p>Stephen (“Stevie”) Ray Vaughan, born in Dallas, Texas (October 3, 1954 – August 27, 1990) was an American blues guitar legend, and is known as one of the most influential blues musicians in history.</p><p>Stevie Ray had been in numerous bands before joining blues rock combo Stevie Ray Vaughan and Double Trouble in the late 1970’s.</p><p>Stevie Ray Vaughan and Double Trouble’s debut album was released in 1983. The critically acclaimed Texas Flood (1983) featured the top-20 hit Pride And Joy and sold well in both blues and rock circles.</p>"
   genre: "Blues"
   tracks: ---
-  - "Love Struck Baby"
-  - "Pride And Joy"
-  - "Texas Flood"
-  - "Tell Me"
-  - "Testify"
-  - "Rude Mood"
-  - "Mary Had A Little Lamb"
-  - "Dirty Pool"
-  - "I'm Cryin'"
-  - "Lenny"
+  - name: "Love Struck Baby"
+    duration: 158
+  - name: "Pride And Joy"
+    duration: 120
+  - name: "Texas Flood"
+    duration: 165
+  - name: "Tell Me"
+    duration: 129
+  - name: "Testify"
+    duration: 166
+  - name: "Rude Mood"
+    duration: 106
+  - name: "Mary Had A Little Lamb"
+    duration: 114
+  - name: "Dirty Pool"
+    duration: 170
+  - name: "I'm Cryin'"
+    duration: 120
+  - name: "Lenny"
+    duration: 114
 - name: "Couldn't stand the weather"
   albumInfo: "<p>Couldn't Stand the Weather is the second studio album by Stevie Ray Vaughan and Double Trouble, released in 1984.</p>"
   artist: "Stevie Ray Vaughan"
   artistInfo: "<p>Stephen (“Stevie”) Ray Vaughan, born in Dallas, Texas (October 3, 1954 – August 27, 1990) was an American blues guitar legend, and is known as one of the most influential blues musicians in history.</p><p>Stevie Ray had been in numerous bands before joining blues rock combo Stevie Ray Vaughan and Double Trouble in the late 1970’s.</p><p>Stevie Ray Vaughan and Double Trouble’s debut album was released in 1983. The critically acclaimed Texas Flood (1983) featured the top-20 hit Pride And Joy and sold well in both blues and rock circles.</p>"
   genre: "Blues"
   tracks: ---
-  - "Scuttle Buttin'"
-  - "Couldn't Stand The Weather"
-  - "The Things (That) I Used To Do"
-  - "Voodoo Chile (Slight Return)"
-  - "Cold Shot"
-  - "Tin Pan Alley"
-  - "Honey Bee"
-  - "Stang's Swang"
+  - name: "Scuttle Buttin'"
+    duration: 113
+  - name: "Couldn't Stand The Weather"
+    duration: 99
+  - name: "The Things (That) I Used To Do"
+    duration: 146
+  - name: "Voodoo Chile (Slight Return)"
+    duration: 162
+  - name: "Cold Shot"
+    duration: 96
+  - name: "Tin Pan Alley"
+    duration: 123
+  - name: "Honey Bee"
+    duration: 166
+  - name: "Stang's Swang"
+    duration: 132
 - name: "Soul to soul"
   albumInfo: "<p>Soul to Soul is the third studio album by Stevie Ray Vaughan and Double Trouble, and was released in 1985. It has been certified platinum by RIAA. Soul to Soul saw the addition of a new band member, keyboardist Reese Wynans, to the Double Trouble power trio. Wynans would stay with the group until Vaughan's death in 1990.</p>"
   artist: "Stevie Ray Vaughan"
   artistInfo: "<p>Stephen (“Stevie”) Ray Vaughan, born in Dallas, Texas (October 3, 1954 – August 27, 1990) was an American blues guitar legend, and is known as one of the most influential blues musicians in history.</p><p>Stevie Ray had been in numerous bands before joining blues rock combo Stevie Ray Vaughan and Double Trouble in the late 1970’s.</p><p>Stevie Ray Vaughan and Double Trouble’s debut album was released in 1983. The critically acclaimed Texas Flood (1983) featured the top-20 hit Pride And Joy and sold well in both blues and rock circles.</p>"
   genre: "Blues"
   tracks: ---
-  - "Say What!"
-  - "Lookin' Out The Window"
-  - "Look At Little Sister"
-  - "Ain't Gone 'n' Give Up On Love"
-  - "Gone Home"
-  - "Change It"
-  - "You'll Be Mine"
-  - "Empty Arms"
-  - "Come On (Part III)"
-  - "Life Without You"
+  - name: "Say What!"
+    duration: 134
+  - name: "Lookin' Out The Window"
+    duration: 98
+  - name: "Look At Little Sister"
+    duration: 152
+  - name: "Ain't Gone 'n' Give Up On Love"
+    duration: 105
+  - name: "Gone Home"
+    duration: 111
+  - name: "Change It"
+    duration: 135
+  - name: "You'll Be Mine"
+    duration: 124
+  - name: "Empty Arms"
+    duration: 107
+  - name: "Come On (Part III)"
+    duration: 116
+  - name: "Life Without You"
+    duration: 106
 - name: "The Beano Album"
   albumInfo: "<p>Blues Breakers is a 1966 electric blues album credited to John Mayall with Eric Clapton. The band name John Mayall & the Bluesbreakers, that was used by the band consequently is derived from the title of this album, no original issues mention The Bluesbreakers as band name. The album was also known as The Beano Album because of its cover photograph showing Clapton reading The Beano, a well-known British children's comic. Clapton stated in his autobiography that he was reading Beano on the cover because he felt like being 'uncooperative' during the photo shoot.</p>"
   artist: "John Mayall's Bluesbreakers"
@@ -270,38 +434,66 @@
 
   genre: "Blues"
   tracks: ---
-  - "All your love"
-  - "Hideaway"
-  - "Little Girl"
-  - "Another Man"
-  - "Double Crossin' Time"
-  - "What'd I Say"
-  - "Key to Love"
-  - "Parchman Farm"
-  - "Have you Heard"
-  - "All your love"
-  - "Hideaway"
-  - "It ain't Right"
-  - "Lonely Years"
-  - "Bernard Jenkins"
+  - name: "All your love"
+    duration: 115
+  - name: "Hideaway"
+    duration: 177
+  - name: "Little Girl"
+    duration: 118
+  - name: "Another Man"
+    duration: 108
+  - name: "Double Crossin' Time"
+    duration: 114
+  - name: "What'd I Say"
+    duration: 155
+  - name: "Key to Love"
+    duration: 144
+  - name: "Parchman Farm"
+    duration: 141
+  - name: "Have you Heard"
+    duration: 156
+  - name: "All your love"
+    duration: 114
+  - name: "Hideaway"
+    duration: 103
+  - name: "It ain't Right"
+    duration: 145
+  - name: "Lonely Years"
+    duration: 172
+  - name: "Bernard Jenkins"
+    duration: 99
 - name: "A Hard Road"
   albumInfo: "<p>A Hard Road is a 1967 electric blues album recorded by John Mayall & the Bluesbreakers featuring Peter Green on lead guitar, John McVie on bass, Aynsley Dunbar on drums and John Almond. Tracks 5, 7 and 13 feature the horn section of Alan Skidmore and Ray Warleigh. Peter Green sings lead vocals on “You Don't Love Me” and “The Same Way.” The notable instrumental track “The Supernatural”, a guitar improvisation in the key of D minor, has much in common with Peter Green's later hit composition “Black Magic Woman”.</p>"
   artist: "John Mayall's Bluesbreakers"
   artistInfo: "<p>John Mayall & the Bluesbreakers are a pioneering English blues band, led by singer, songwriter, and multi-instrumentalist John Mayall, OBE. Mayall used the band name between 1963 and ‘67 then dropped it for some fifteen years, but in 1982 a ‘Return of the Bluesbreakers’ was announced and it has been kept since then. The name has become generic without a clear distinction which recordings are to be credited just to the leader or to leader and his band. </p>"
   genre: "Blues"
   tracks: ---
-  - "A Hard Road"
-  - "It's Over"
-  - "You Don't Love Me"
-  - "The Stumble"
-  - "Another Kind Of Love"
-  - "Hit The Highway"
-  - "Leaping Christine"
-  - "Dust My Blues"
-  - "There's Always Work"
-  - "The Same Way"
-  - "The Supernatural"
-  - "Top Of The Hill"
-  - "Someday After A While (You'll Be Sorry)"
-  - "Living Alone"
+  - name: "A Hard Road"
+    duration: 141
+  - name: "It's Over"
+    duration: 149
+  - name: "You Don't Love Me"
+    duration: 169
+  - name: "The Stumble"
+    duration: 149
+  - name: "Another Kind Of Love"
+    duration: 125
+  - name: "Hit The Highway"
+    duration: 119
+  - name: "Leaping Christine"
+    duration: 132
+  - name: "Dust My Blues"
+    duration: 140
+  - name: "There's Always Work"
+    duration: 100
+  - name: "The Same Way"
+    duration: 146
+  - name: "The Supernatural"
+    duration: 105
+  - name: "Top Of The Hill"
+    duration: 112
+  - name: "Someday After A While (You'll Be Sorry)"
+    duration: 145
+  - name: "Living Alone"
+    duration: 181
 
