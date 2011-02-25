@@ -15,13 +15,16 @@ get '/albums/catalogue.xml' do
 end
 
 get '/artists/catalogue.json' do
+  content_type :json
   JSON.pretty_generate(Catalogue.items(:leaf => :artist))
 end
 
 get '/albums/catalogue.json' do
+  content_type :json
   JSON.pretty_generate(Catalogue.items(:leaf => :album))
 end
 
 get '/tracks/catalogue.json' do
+  content_type :json
   JSON.pretty_generate(Catalogue.items(:leaf => :track))
 end
