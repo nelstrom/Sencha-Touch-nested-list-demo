@@ -60,6 +60,7 @@ GEM
       data_objects (= 0.10.2)
     extlib (0.9.15)
     fastercsv (1.5.4)
+    json (1.5.1)
     json_pure (1.5.1)
     linecache (0.43)
     rack (1.2.0)
@@ -101,6 +102,7 @@ DEPENDENCIES
   dm-validations (= 1.0.2)
   do_postgres
   do_sqlite3
+  json
   rack (= 1.2.0)
   rack-test
   rake

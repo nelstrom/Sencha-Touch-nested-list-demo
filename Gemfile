@@ -3,6 +3,7 @@ source "http://rubygems.org"
 gem "rake"
 gem "activerecord"
 gem "sinatra", "~>1.1"
+gem "json"
 
 gem "data_mapper"
 gem "dm-core", "1.0.2"
