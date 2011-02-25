@@ -17,7 +17,7 @@ NestedListDemo.views.Tracks = Ext.extend(Ext.NestedList, {
             '</tpl>' +
             '<tpl if="model === \'Track\'">'+
                 '<div class="metadata">' +
-                    ' Running time: {duration} seconds' +
+                    ' Duration: {[Math.floor(values.duration/60)]}:{[values.duration%60]}' +
                 '</div>' +
             '</tpl>';
 
