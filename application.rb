@@ -10,10 +10,6 @@ get '/' do
   erb :index
 end
 
-get '/albums/catalogue.xml' do
-  Catalogue.items(:leaf => :album).to_xml
-end
-
 get '/artists/catalogue.json' do
   content_type :json
   JSON.pretty_generate(Catalogue.items(:leaf => :artist))
