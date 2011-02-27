@@ -17,6 +17,25 @@ NestedListDemo.views.Viewport = Ext.extend(Ext.NestedList, {
                 this.toolbar.setTitle(itemData.text);
                 detailCard.update(itemData);
                 return detailCard;
+            },
+            getItemTextTpl: function() {
+                var tplConstructor = '{text}' +
+                    '<tpl if="model === \'Artist\'">'+
+                        '<div class="metadata">' +
+                            ' {[values.items.length]} albums' +
+                        '</div>' +
+                    '</tpl>' +
+                    '<tpl if="model === \'Album\'">'+
+                        '<div class="metadata">' +
+                            ' {[values.items.length]} tracks' +
+                        '</div>' +
+                    '</tpl>' +
+                    '<tpl if="model === \'Track\'">'+
+                        '<div class="metadata">' +
+                            ' Duration: {[Math.floor(values.duration/60)]}:{[values.duration%60]}' +
+                        '</div>' +
+                    '</tpl>';
+                return tplConstructor;
             }
         });
         NestedListDemo.views.Viewport.superclass.initComponent.apply(this, arguments);
