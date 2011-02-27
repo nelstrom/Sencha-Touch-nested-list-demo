@@ -2,6 +2,6 @@ NestedListDemo = new Ext.Application({
     name: "NestedListDemo",
     
     launch: function() {
-        new Ext.Panel({fullscreen: true})
+        this.views.viewport = new this.views.Viewport();
     }
 });
