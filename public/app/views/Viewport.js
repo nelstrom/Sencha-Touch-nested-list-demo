@@ -13,9 +13,8 @@ NestedListDemo.views.Viewport = Ext.extend(Ext.NestedList, {
                     styleHtmlContent: true,
                     tpl: ["<h2>{text}</h2>","{info}"]
                 });
-                this.backButton.setText(parentData.text);
-                this.toolbar.setTitle(itemData.text);
                 detailCard.update(itemData);
+                this.backButton.setText(parentData.text);
                 return detailCard;
             }
         });
