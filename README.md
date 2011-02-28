@@ -76,10 +76,31 @@ Run:
     git push heroku master
     heroku rake db:seed
 
-TODO:
+Notes on getting the sinatra application running
+------------------------------------------------
 
-* clicking a leaf node should scroll to show a fresh page
-* update the text in the 'Back' button to show parent title (not 'Groceries')
+Requirements:
+
+* rubygems 1.3.6 or newer
+* bundler
+* postgres
+
+Troubles with postgres:
+
+     ~/code/nested-list-demo: ) createdb music_catalogue
+    createdb: could not connect to database postgres: FATAL:  role "demo" does not exist
+     ~/code/nested-list-demo: ) postgres
+    You must specify the --config-file or -D invocation option or set the PGDATA environment variable.
+
+Nevermind. Lets just switch to using sqlite instead! Change:
+
+    DataMapper.setup(:default, (ENV["DATABASE_URL"] || 'postgres://localhost/music_catalogue'))
+
+to
+    DataMapper.setup(:default, (ENV["DATABASE_URL"] || "sqlite3:///#{File.expand_path(File.dirname(__FILE__))}/#{Sinatra::Base.environment}.db")) 
+
+
+
 
 [eg]: http://dev.sencha.com/deploy/touch/examples/nestedlist/
 [Sinatra]: http://www.sinatrarb.com/
