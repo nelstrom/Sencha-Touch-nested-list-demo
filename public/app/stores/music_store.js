@@ -1,8 +1,8 @@
-NestedListDemo.albums_store = new Ext.data.TreeStore({
+NestedListDemo.music_store = new Ext.data.TreeStore({
     model: 'ListItem',
     proxy: {
         type: 'ajax',
-        url: '/albums/catalogue.json',
+        url: '/tracks/catalogue.json',
         reader: {
             type: 'tree',
             root: 'items'
